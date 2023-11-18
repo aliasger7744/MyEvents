@@ -1,0 +1,1205 @@
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 4
+"GET /login HTTP/1.1" 200 3927
+F:\Hostingspaces\PyJango\myevents\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /login HTTP/1.1" 200 3923
+"POST /login HTTP/1.1" 200 4201
+"POST /login HTTP/1.1" 200 3933
+F:\Hostingspaces\PyJango\myevents\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Hostingspaces\PyJango\myevents\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Hostingspaces\PyJango\myevents\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Hostingspaces\PyJango\myevents\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Hostingspaces\PyJango\myevents\myapp\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /login HTTP/1.1" 302 0
+Internal Server Error: /dashboard
+Traceback (most recent call last):
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myapp.views.dashboard didn't return an HttpResponse object. It returned None instead.
+"GET /dashboard HTTP/1.1" 500 67382
+F:\Hostingspaces\PyJango\myevents\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Hostingspaces\PyJango\myevents\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /dashboard HTTP/1.1" 200 2
+F:\Hostingspaces\PyJango\myevents\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /dashboard HTTP/1.1" 200 8
+"GET /dashboard HTTP/1.1" 200 8647
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2724
+Not Found: /assets/libs/choices.js/public/assets/scripts/choices.min.js
+"GET /assets/libs/choices.js/public/assets/scripts/choices.min.js HTTP/1.1" 404 2757
+Not Found: /assets/libs/bootstrap/css/bootstrap.min.css
+"GET /assets/libs/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 2709
+Not Found: /assets/css/styles.min.css
+"GET /assets/css/styles.min.css HTTP/1.1" 404 2655
+Not Found: /assets/css/icons.css
+"GET /assets/css/icons.css HTTP/1.1" 404 2640
+Not Found: /assets/libs/node-waves/waves.min.css
+"GET /assets/libs/node-waves/waves.min.css HTTP/1.1" 404 2688
+Not Found: /assets/libs/simplebar/simplebar.min.css
+"GET /assets/libs/simplebar/simplebar.min.css HTTP/1.1" 404 2697
+Not Found: /assets/libs/flatpickr/flatpickr.min.css
+"GET /assets/libs/flatpickr/flatpickr.min.css HTTP/1.1" 404 2697
+Not Found: /assets/libs/choices.js/public/assets/styles/choices.min.css
+Not Found: /assets/libs/@simonwep/pickr/themes/nano.min.css
+"GET /assets/libs/choices.js/public/assets/styles/choices.min.css HTTP/1.1" 404 2757
+"GET /assets/libs/@simonwep/pickr/themes/nano.min.css HTTP/1.1" 404 2721
+Not Found: /assets/js/main.js
+Not Found: /assets/images/brand-logos/desktop-logo.png
+"GET /assets/images/brand-logos/desktop-logo.png HTTP/1.1" 404 2706
+"GET /assets/js/main.js HTTP/1.1" 404 2631
+Not Found: /assets/images/brand-logos/toggle-logo.png
+"GET /assets/images/brand-logos/toggle-logo.png HTTP/1.1" 404 2703
+Not Found: /assets/libs/@popperjs/core/umd/popper.min.js
+"GET /assets/libs/@popperjs/core/umd/popper.min.js HTTP/1.1" 404 2712
+Not Found: /assets/libs/bootstrap/css/bootstrap.min.css
+"GET /assets/libs/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 2709
+Not Found: /assets/css/styles.min.css
+"GET /assets/css/styles.min.css HTTP/1.1" 404 2655
+Not Found: /assets/css/icons.css
+"GET /assets/css/icons.css HTTP/1.1" 404 2640
+Not Found: /assets/libs/node-waves/waves.min.css
+"GET /assets/libs/node-waves/waves.min.css HTTP/1.1" 404 2688
+Not Found: /assets/libs/simplebar/simplebar.min.css
+"GET /assets/libs/simplebar/simplebar.min.css HTTP/1.1" 404 2697
+Not Found: /assets/libs/flatpickr/flatpickr.min.css
+"GET /assets/libs/flatpickr/flatpickr.min.css HTTP/1.1" 404 2697
+Not Found: /assets/libs/@simonwep/pickr/themes/nano.min.css
+"GET /assets/libs/@simonwep/pickr/themes/nano.min.css HTTP/1.1" 404 2721
+Not Found: /assets/libs/choices.js/public/assets/styles/choices.min.css
+"GET /assets/libs/choices.js/public/assets/styles/choices.min.css HTTP/1.1" 404 2757
+Not Found: /assets/images/brand-logos/desktop-dark.png
+"GET /assets/images/brand-logos/desktop-dark.png HTTP/1.1" 404 2706
+Not Found: /assets/images/brand-logos/toggle-dark.png
+"GET /assets/images/brand-logos/toggle-dark.png HTTP/1.1" 404 2703
+Not Found: /assets/libs/bootstrap/js/bootstrap.bundle.min.js
+"GET /assets/libs/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 404 2724
+Not Found: /assets/js/defaultmenu.min.js
+"GET /assets/js/defaultmenu.min.js HTTP/1.1" 404 2664
+Not Found: /assets/libs/node-waves/waves.min.js
+"GET /assets/libs/node-waves/waves.min.js HTTP/1.1" 404 2685
+Not Found: /assets/js/sticky.js
+"GET /assets/js/sticky.js HTTP/1.1" 404 2637
+Not Found: /assets/libs/simplebar/simplebar.min.js
+"GET /assets/libs/simplebar/simplebar.min.js HTTP/1.1" 404 2694
+Not Found: /assets/js/simplebar.js
+"GET /assets/js/simplebar.js HTTP/1.1" 404 2646
+Not Found: /assets/libs/@simonwep/pickr/pickr.es5.min.js
+"GET /assets/libs/@simonwep/pickr/pickr.es5.min.js HTTP/1.1" 404 2712
+Not Found: /assets/js/custom-switcher.min.js
+"GET /assets/js/custom-switcher.min.js HTTP/1.1" 404 2676
+Not Found: /assets/js/custom.js
+"GET /assets/js/custom.js HTTP/1.1" 404 2637
+Not Found: /assets/images/brand-logos/favicon.ico
+"GET /assets/images/brand-logos/favicon.ico HTTP/1.1" 404 2691
+Internal Server Error: /dashboard
+Traceback (most recent call last):
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\defaulttags.py", line 1026, in find_library
+    return parser.libraries[name]
+           ~~~~~~~~~~~~~~~~^^^^^^
+KeyError: "'static'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\myevents\myapp\views.py", line 38, in dashboard
+    return render(req, 'dashboard.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\defaulttags.py", line 1088, in load
+    lib = find_library(parser, name)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\defaulttags.py", line 1028, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: ''static'' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+cache
+i18n
+l10n
+log
+static
+tz
+"GET /dashboard HTTP/1.1" 500 172469
+"GET /dashboard HTTP/1.1" 200 8693
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2724
+"GET /static/css/icons.css HTTP/1.1" 200 382
+"GET /static/libs/node-waves/waves.min.css HTTP/1.1" 200 3861
+"GET /static/libs/simplebar/simplebar.min.css HTTP/1.1" 200 2937
+"GET /static/js/main.js HTTP/1.1" 200 11129
+"GET /static/libs/choices.js/public/assets/scripts/choices.min.js HTTP/1.1" 200 73785
+"GET /static/libs/choices.js/public/assets/styles/choices.min.css HTTP/1.1" 200 6679
+"GET /static/libs/flatpickr/flatpickr.min.css HTTP/1.1" 200 16166
+"GET /static/libs/%40simonwep/pickr/themes/nano.min.css HTTP/1.1" 200 9216
+"GET /static/icon-fonts/bootstrap-icons/icons/font/bootstrap-icons.css HTTP/1.1" 200 80533
+"GET /static/icon-fonts/RemixIcons/fonts/remixicon.css HTTP/1.1" 200 110438
+"GET /static/icon-fonts/feather/feather.css HTTP/1.1" 200 12841
+"GET /static/icon-fonts/tabler-icons/iconfont/tabler-icons.css HTTP/1.1" 200 95910
+"GET /static/icon-fonts/boxicons/css/boxicons.css HTTP/1.1" 200 94202
+Not Found: /assets/images/brand-logos/desktop-logo.png
+"GET /assets/images/brand-logos/desktop-logo.png HTTP/1.1" 404 2706
+Not Found: /assets/images/brand-logos/toggle-logo.png
+"GET /assets/images/brand-logos/toggle-logo.png HTTP/1.1" 404 2703
+"GET /static/icon-fonts/line-awesome/1.3.0/css/line-awesome.css HTTP/1.1" 200 110644
+"GET /static/libs/%40popperjs/core/umd/popper.min.js HTTP/1.1" 200 20122
+Not Found: /assets/images/brand-logos/desktop-dark.png
+"GET /assets/images/brand-logos/desktop-dark.png HTTP/1.1" 404 2706
+Not Found: /assets/images/brand-logos/toggle-dark.png
+"GET /assets/images/brand-logos/toggle-dark.png HTTP/1.1" 404 2703
+"GET /static/js/sticky.js HTTP/1.1" 200 479
+"GET /static/js/defaultmenu.min.js HTTP/1.1" 200 36666
+"GET /static/icon-fonts/feather/fonts/feather/feather-webfont.ttf HTTP/1.1" 200 66816
+"GET /static/libs/node-waves/waves.min.js HTTP/1.1" 200 6329
+"GET /static/icon-fonts/tabler-icons/iconfont/fonts/tabler-icons.woff2 HTTP/1.1" 200 372700
+"GET /static/libs/simplebar/simplebar.min.js HTTP/1.1" 200 65856
+"GET /static/icon-fonts/boxicons/fonts/boxicons.woff2 HTTP/1.1" 200 115680
+"GET /static/js/simplebar.js HTTP/1.1" 200 167
+"GET /static/js/custom.js HTTP/1.1" 200 16094
+"GET /static/libs/%40simonwep/pickr/pickr.es5.min.js HTTP/1.1" 200 72628
+"GET /static/images/brand-logos/favicon.ico HTTP/1.1" 200 1150
+"GET /dashboard HTTP/1.1" 200 8822
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2724
+Not Found: /assets/images/brand-logos/toggle-logo.png
+Not Found: /assets/images/brand-logos/desktop-logo.png
+"GET /assets/images/brand-logos/toggle-logo.png HTTP/1.1" 404 2703
+"GET /assets/images/brand-logos/desktop-logo.png HTTP/1.1" 404 2706
+Not Found: /assets/images/brand-logos/toggle-dark.png
+Not Found: /assets/images/brand-logos/desktop-dark.png
+"GET /assets/images/brand-logos/toggle-dark.png HTTP/1.1" 404 2703
+"GET /assets/images/brand-logos/desktop-dark.png HTTP/1.1" 404 2706
+Not Found: /assets/images/brand-logos/toggle-logo.png
+Not Found: /assets/images/brand-logos/desktop-logo.png
+"GET /assets/images/brand-logos/toggle-logo.png HTTP/1.1" 404 2703
+"GET /assets/images/brand-logos/desktop-logo.png HTTP/1.1" 404 2706
+"GET /dashboard HTTP/1.1" 200 8830
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2724
+"GET /static/images/brand-logos/toggle-logo.png HTTP/1.1" 200 2832
+"GET /static/images/brand-logos/desktop-logo.png HTTP/1.1" 200 2857
+"GET /static/images/brand-logos/desktop-dark.png HTTP/1.1" 200 2857
+"GET /static/images/brand-logos/toggle-dark.png HTTP/1.1" 200 2832
+"GET /dashboard HTTP/1.1" 200 8827
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2724
+"GET /dashboard HTTP/1.1" 200 8827
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2724
+"GET /dashboard HTTP/1.1" 200 8827
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2724
+"GET /dashboard HTTP/1.1" 200 8782
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2724
+F:\Hostingspaces\PyJango\myevents\myevents\settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /dashboard HTTP/1.1" 200 10935
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2724
+Not Found: /assets/images/faces/9.jpg
+"GET /assets/images/faces/9.jpg HTTP/1.1" 404 2655
+"GET /dashboard HTTP/1.1" 200 10936
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2724
+"GET /static/images/faces/9.jpg HTTP/1.1" 200 9106
+"GET /dashboard HTTP/1.1" 200 11070
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2724
+"GET /dashboard HTTP/1.1" 200 11070
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2724
+"GET /dashboard HTTP/1.1" 200 11070
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2724
+"GET /dashboard HTTP/1.1" 200 11070
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2724
+"GET /dashboard HTTP/1.1" 200 11078
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2724
+F:\Hostingspaces\PyJango\myevents\myapp\context_processors.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /dashboard HTTP/1.1" 200 11051
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2724
+"GET /dashboard HTTP/1.1" 200 11051
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2724
+F:\Hostingspaces\PyJango\myevents\myevents\settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /dashboard HTTP/1.1" 200 11051
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2724
+"GET /dashboard HTTP/1.1" 200 11051
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2724
+"GET /dashboard HTTP/1.1" 200 11110
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2724
+"GET /dashboard HTTP/1.1" 200 11110
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2724
+"GET /dashboard HTTP/1.1" 200 11110
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2724
+"GET /dashboard HTTP/1.1" 200 8509
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2724
+"GET /dashboard HTTP/1.1" 200 41101
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2724
+Not Found: /assets/images/flags/us_flag.jpg
+"GET /assets/images/flags/us_flag.jpg HTTP/1.1" 404 2673
+Not Found: /assets/images/flags/spain_flag.jpg
+"GET /assets/images/flags/spain_flag.jpg HTTP/1.1" 404 2682
+Not Found: /assets/images/flags/french_flag.jpg
+Not Found: /assets/images/flags/germany_flag.jpg
+"GET /assets/images/flags/germany_flag.jpg HTTP/1.1" 404 2688
+"GET /assets/images/flags/french_flag.jpg HTTP/1.1" 404 2685
+Not Found: /assets/images/flags/italy_flag.jpg
+Not Found: /assets/images/flags/russia_flag.jpg
+"GET /assets/images/flags/italy_flag.jpg HTTP/1.1" 404 2682
+"GET /assets/images/flags/russia_flag.jpg HTTP/1.1" 404 2685
+Not Found: /assets/images/ecommerce/jpg/1.jpg
+"GET /assets/images/ecommerce/jpg/1.jpg HTTP/1.1" 404 2679
+Not Found: /assets/images/ecommerce/jpg/3.jpg
+"GET /assets/images/ecommerce/jpg/3.jpg HTTP/1.1" 404 2679
+Not Found: /assets/images/faces/9.jpg
+"GET /assets/images/faces/9.jpg HTTP/1.1" 404 2655
+Not Found: /assets/images/ecommerce/jpg/5.jpg
+"GET /assets/images/ecommerce/jpg/5.jpg HTTP/1.1" 404 2679
+Not Found: /assets/images/ecommerce/jpg/4.jpg
+"GET /assets/images/ecommerce/jpg/4.jpg HTTP/1.1" 404 2679
+Not Found: /assets/images/ecommerce/jpg/6.jpg
+"GET /assets/images/ecommerce/jpg/6.jpg HTTP/1.1" 404 2679
+Not Found: /assets/images/apps/figma.png
+"GET /assets/images/apps/figma.png HTTP/1.1" 404 2664
+Not Found: /assets/images/apps/microsoft-powerpoint.png
+"GET /assets/images/apps/microsoft-powerpoint.png HTTP/1.1" 404 2709
+Not Found: /assets/images/apps/microsoft-word.png
+"GET /assets/images/apps/microsoft-word.png HTTP/1.1" 404 2691
+Not Found: /assets/images/apps/calender.png
+"GET /assets/images/apps/calender.png HTTP/1.1" 404 2673
+Not Found: /assets/images/apps/sketch.png
+"GET /assets/images/apps/sketch.png HTTP/1.1" 404 2667
+Not Found: /assets/images/apps/google-docs.png
+"GET /assets/images/apps/google-docs.png HTTP/1.1" 404 2682
+Not Found: /assets/images/apps/translate.png
+"GET /assets/images/apps/translate.png HTTP/1.1" 404 2676
+Not Found: /assets/images/apps/google.png
+"GET /assets/images/apps/google.png HTTP/1.1" 404 2667
+Not Found: /assets/images/apps/google-sheets.png
+"GET /assets/images/apps/google-sheets.png HTTP/1.1" 404 2688
+Not Found: /assets/images/flags/us_flag.jpg
+"GET /assets/images/flags/us_flag.jpg HTTP/1.1" 404 2673
+"GET /dashboard HTTP/1.1" 200 11110
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2724
+"GET /dashboard HTTP/1.1" 200 11128
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2724
+"GET /dashboard HTTP/1.1" 200 11128
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2724
+"GET /dashboard HTTP/1.1" 200 11128
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2724
+F:\Hostingspaces\PyJango\myevents\myapp\context_processors.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /dashboard HTTP/1.1" 200 11126
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2724
+"GET /dashboard HTTP/1.1" 200 10302
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2724
+Not Found: /logout
+"GET /logout HTTP/1.1" 404 2598
+F:\Hostingspaces\PyJango\myevents\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Hostingspaces\PyJango\myevents\myapp\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /logout HTTP/1.1" 302 0
+"GET /login HTTP/1.1" 200 3923
+"POST /login HTTP/1.1" 200 4201
+"POST /login HTTP/1.1" 200 4195
+"POST /login HTTP/1.1" 302 0
+"GET /dashboard HTTP/1.1" 200 10302
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2892
+"GET /dashboard?name=ali HTTP/1.1" 200 10302
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2892
+F:\Hostingspaces\PyJango\myevents\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Hostingspaces\PyJango\myevents\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Hostingspaces\PyJango\myevents\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /dashboard?name=ali HTTP/1.1" 200 10321
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2892
+"GET /dashboard?name=ali HTTP/1.1" 200 10321
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2892
+"GET /dashboard?name=aliasger HTTP/1.1" 200 10326
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2892
+F:\Hostingspaces\PyJango\myevents\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /dashboard?name=aliasger HTTP/1.1" 200 10326
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2892
+"GET /dashboard?name=aliasger HTTP/1.1" 200 10326
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2892
+"GET /dashboard HTTP/1.1" 200 10322
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2892
+F:\Hostingspaces\PyJango\myevents\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /dashboard HTTP/1.1" 200 10322
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2892
+"GET /dashboard HTTP/1.1" 200 10322
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2892
+"GET /dashboard HTTP/1.1" 200 10322
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2892
+"GET /dashboard HTTP/1.1" 200 10322
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2892
+F:\Hostingspaces\PyJango\myevents\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /dashboard HTTP/1.1" 200 10318
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2892
+"GET /dashboard HTTP/1.1" 200 10318
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2892
+"GET /dashboard?name=aliasger HTTP/1.1" 200 10326
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2892
+"GET /dashboard?name=aliasger HTTP/1.1" 200 10326
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2892
+"GET /dashboard?name=aliasgersss HTTP/1.1" 200 10329
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2892
+Not Found: /dashboarda
+"GET /dashboarda?name=aliasgersss HTTP/1.1" 404 2795
+"GET /dashboard?name=aliasgersss HTTP/1.1" 200 10329
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2892
+"GET /dashboard?name=aliasgersss HTTP/1.1" 200 10319
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2892
+"GET /dashboard?name=aliasgersss HTTP/1.1" 200 9868
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2892
+"GET /dashboard?name=aliasgersss HTTP/1.1" 200 10319
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2892
+"GET /dashboard?name=aliasgersss HTTP/1.1" 200 9870
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2892
+"GET /dashboard?name=aliasgersss HTTP/1.1" 200 9862
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2892
+"GET /dashboard?name=aliasgersss HTTP/1.1" 200 9868
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2892
+"GET /dashboard?name=aliasgersss HTTP/1.1" 200 9786
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2892
+"GET /dashboard HTTP/1.1" 200 9775
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2892
+"GET /dashboard HTTP/1.1" 200 9775
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2892
+"GET /dashboard HTTP/1.1" 200 9775
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2892
+Internal Server Error: /dashboard
+Traceback (most recent call last):
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\myevents\myapp\views.py", line 46, in dashboard
+    return render(request, 'dashboard.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'dashboards' not found. 'dashboards' is not a valid view function or pattern name.
+"GET /dashboard HTTP/1.1" 500 148992
+"GET /dashboard HTTP/1.1" 200 9775
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2892
+"GET /dashboard HTTP/1.1" 200 9775
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2892
+Internal Server Error: /dashboard
+Traceback (most recent call last):
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\myevents\myapp\views.py", line 46, in dashboard
+    return render(request, 'dashboard.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'member_view' not found. 'member_view' is not a valid view function or pattern name.
+"GET /dashboard HTTP/1.1" 500 148104
+F:\Hostingspaces\PyJango\myevents\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Hostingspaces\PyJango\myevents\myapp\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /dashboard HTTP/1.1" 200 9871
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 3252
+"GET /member_view HTTP/1.1" 200 11
+"GET /member_update HTTP/1.1" 200 13
+F:\Hostingspaces\PyJango\myevents\myapp\urls.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Hostingspaces\PyJango\myevents\myapp\urls.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Hostingspaces\PyJango\myevents\myapp\urls.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Hostingspaces\PyJango\myevents\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Hostingspaces\PyJango\myevents\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Hostingspaces\PyJango\myevents\myapp\urls.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Hostingspaces\PyJango\myevents\myevents\urls.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Hostingspaces\PyJango\myevents\myevents\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /dashboard
+Traceback (most recent call last):
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\myevents\myapp\views.py", line 46, in dashboard
+    return render(request, 'dashboard.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'members/member_view' not found. 'members/member_view' is not a valid view function or pattern name.
+"GET /dashboard HTTP/1.1" 500 148464
+Internal Server Error: /dashboard
+Traceback (most recent call last):
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\myevents\myapp\views.py", line 46, in dashboard
+    return render(request, 'dashboard.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'member/member_view' not found. 'member/member_view' is not a valid view function or pattern name.
+"GET /dashboard HTTP/1.1" 500 148438
+Internal Server Error: /dashboard
+Traceback (most recent call last):
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\myevents\myapp\views.py", line 46, in dashboard
+    return render(request, 'dashboard.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'member/member_view' not found. 'member/member_view' is not a valid view function or pattern name.
+"GET /dashboard HTTP/1.1" 500 148438
+F:\Hostingspaces\PyJango\myevents\myevents\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /dashboard
+Traceback (most recent call last):
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\myevents\myapp\views.py", line 46, in dashboard
+    return render(request, 'dashboard.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'member/member_view' not found. 'member/member_view' is not a valid view function or pattern name.
+"GET /dashboard HTTP/1.1" 500 148438
+Internal Server Error: /dashboard
+Traceback (most recent call last):
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\myevents\myapp\views.py", line 46, in dashboard
+    return render(request, 'dashboard.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'member/member_view' not found. 'member/member_view' is not a valid view function or pattern name.
+"GET /dashboard HTTP/1.1" 500 148438
+Internal Server Error: /dashboard
+Traceback (most recent call last):
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\urls\base.py", line 71, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+                      ~~~~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: 'member'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\myevents\myapp\views.py", line 46, in dashboard
+    return render(request, 'dashboard.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\urls\base.py", line 82, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'member' is not a registered namespace
+"GET /dashboard HTTP/1.1" 500 150320
+Internal Server Error: /dashboard
+Traceback (most recent call last):
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\urls\base.py", line 71, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+                      ~~~~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: 'member'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\myevents\myapp\views.py", line 46, in dashboard
+    return render(request, 'dashboard.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\urls\base.py", line 82, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'member' is not a registered namespace
+"GET /dashboard HTTP/1.1" 500 150320
+Internal Server Error: /dashboard
+Traceback (most recent call last):
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\urls\base.py", line 71, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+                      ~~~~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: 'member'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\myevents\myapp\views.py", line 46, in dashboard
+    return render(request, 'dashboard.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\urls\base.py", line 82, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'member' is not a registered namespace
+"GET /dashboard HTTP/1.1" 500 150320
+Internal Server Error: /dashboard
+Traceback (most recent call last):
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\urls\base.py", line 71, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+                      ~~~~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: 'member'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\myevents\myapp\views.py", line 46, in dashboard
+    return render(request, 'dashboard.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\urls\base.py", line 82, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'member' is not a registered namespace
+"GET /dashboard HTTP/1.1" 500 150320
+F:\Hostingspaces\PyJango\myevents\myevents\urls.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Hostingspaces\PyJango\myevents\myevents\settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /dashboard HTTP/1.1" 200 9751
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2892
+F:\Hostingspaces\PyJango\myevents\myevents\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /dashboard HTTP/1.1" 200 9885
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2999
+"GET /member/member_view HTTP/1.1" 200 11
+"GET /member/member_update HTTP/1.1" 200 13

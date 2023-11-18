@@ -1,0 +1,4 @@
+Watching for file changes with StatReloader
+"POST /login HTTP/1.1" 200 4195
+"POST /login HTTP/1.1" 200 4195
+F:\Hostingspaces\PyJango\myevents\myevents\settings.py changed, reloading.
