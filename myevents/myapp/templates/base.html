@@ -49,13 +49,13 @@
                     <a href="#" class="header-link dropdown-toggle" id="mainHeaderProfile" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
                        <div class="d-flex align-items-center">
                           <div class="me-sm-2 me-0">
-                             <img src="{% static '/images/faces/9.jpg' %}" alt="img" width="32" height="32" class="rounded-circle">
+                             <img src="{% static '/images/photos/' %}{{userdetails.photo}}" alt="img" width="32" height="32" class="rounded-circle">
                           </div>
                           <div class="d-sm-block d-none">
 
-                            {% if user %}
-                              <p class="fw-semibold mb-0 lh-1">{{ user.fullname }}</p>
-                              <span class="op-7 fw-normal d-block fs-11">{{ user.mobile }}</span>
+                            {% if userdetails %}
+                              <p class="fw-semibold mb-0 lh-1">{{ userdetails.fullname }}</p>
+                              <span class="op-7 fw-normal d-block fs-11">{{ userdetails.mobile }}</span>
                             {% endif %}
 
                              
@@ -112,7 +112,7 @@
                            </li>
                            <li class="slide">
                               <a href="{% url 'member:member_view' %}" class="side-menu__item">View</a>
-                              <a href="{% url 'member:member_update' %}" class="side-menu__item">Add New</a>
+                              <a href="{% url 'member:member_update' 0 %}" class="side-menu__item">Add New</a>
                            </li>
                           
                           
@@ -132,6 +132,7 @@
          </aside>
          <div class="main-content app-content">
             <div class="container-fluid">
+              {% include 'alert.html' %}
               {%block 'body'%}{%endblock%}   
             </div>
          </div>

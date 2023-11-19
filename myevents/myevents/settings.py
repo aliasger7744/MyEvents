@@ -60,7 +60,10 @@ ROOT_URLCONF = 'myevents.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR/'myapp/templates'],
+        'DIRS': [
+                    BASE_DIR/'myapp/templates', 
+                    BASE_DIR/'members/templates',
+                ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -161,3 +164,6 @@ LOGGING = {
         },
     },
 }
+
+MEDIA_ROOT = BASE_DIR / 'media'
+MEDIA_URL = '/media/'

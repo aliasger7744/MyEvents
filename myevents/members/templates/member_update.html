@@ -1,0 +1,75 @@
+
+       {% extends "base.html" %}
+       {%block 'title'%}{{mtitle}}{%endblock%}
+
+       {% load static %}
+
+       {%block 'body'%}
+               <div class="d-md-flex d-block align-items-center justify-content-between my-4 page-header-breadcrumb">
+                  <h1 class="page-title fw-semibold fs-18 mb-0">{{mtitle}}</h1>
+                  <div class="ms-md-1 ms-0">
+                     <nav>
+                        <ol class="breadcrumb mb-0">
+                           <li class="breadcrumb-item"><a href="{%url 'member:member_view'%}">Members</a></li>
+                           <li class="breadcrumb-item active"><a href="#">{{mtitle}}</a></li>
+                           
+                        </ol>
+                     </nav>
+                  </div>
+               </div>
+
+
+              <div class='row'>
+                <div class='col-md-12'>
+                  <div class='card'>
+                    <div class="card-header">
+                      
+                      </div>
+                       
+                        <div class="card-body">
+                        <form method="post" autocomplete="nope" enctype="multipart/form-data">
+                          <input name="mid" type='hidden' value="{{mid}}">
+                          {% csrf_token %}
+                          <div class="mb-3">
+                            <label for="form-text" class="form-label fs-14 text-dark">Enter Name*</label>
+                            <input type="text" required name="fullname" autocomplete="nope" value="{{fullname}}" class="form-control" placeholder="">
+                        </div>
+
+
+                        <div class="mb-3">
+                          <label for="form-text" class="form-label fs-14 text-dark">Mobile*</label>
+                          <input type="text" required name="mobile" autocomplete="nope" value="{{mobile}}" class="form-control" placeholder="">
+                      </div>
+
+                        <div class="mb-3">
+                          <label for="form-password" class="form-label fs-14 text-dark">Role*</label>
+                          <select name="role"  required class="form-control">
+                              <option {%if role == "user" or role == ''%}selected{%endif%}>user</option>
+                              <option {%if role == "admin"%}selected{%endif%}>admin</option>
+                          </select>
+                      </div>
+
+
+                        <div class="mb-3">
+                            <label for="form-password" class="form-label fs-14 text-dark">Password*</label>
+                            <input type="password" value="{{password}}" name="password" required class="form-control" id="form-password" placeholder="">
+                        </div>
+
+                        <div class="mb-3">
+                          <label for="form-password" class="form-label fs-14 text-dark">Photo</label>
+                          <input type="file" class="form-control" name="photo" id="id_photo" accept="image/*">
+
+                      </div>
+                        
+                       <div align="right">
+                           <button class="btn btn-primary" type="submit">{{buttontitle}}</button>
+                       </div>
+                      </form>
+                 </div>
+                </div>
+              </div>
+            </div>
+            
+         {%endblock%}     
+         
+        

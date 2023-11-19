@@ -2,16 +2,21 @@ from django.shortcuts import render, HttpResponse, redirect
 from .models import Members
 from django.contrib import messages
 import logging
+from .login_required import my_login_required
+from datetime import datetime
+
 
 
 
 def index(request):
-    return HttpResponse("home")
+    return redirect('dashboard')
 
 
 def login(request):
     mobile = ""
     password = ""
+    lastlogin = datetime.now()
+
     if request.method == "POST":
         mobile = request.POST.get("username")
         password = request.POST.get("password")
@@ -20,6 +25,8 @@ def login(request):
             Usercheck = Members.objects.filter(mobile=mobile).exists()
             if Usercheck:
                 user = Members.objects.get(mobile=mobile)
+                user.lastlogin = lastlogin
+                user.save()
                 if user.password == password:
                     request.session["mobile"] = mobile
                     return redirect('dashboard')
@@ -33,7 +40,7 @@ def login(request):
     context = {'mobile' : mobile, }
     return render(request, 'login.html' , context)
 
-
+@my_login_required
 def dashboard(request):
    name = ""
    name = request.GET.get('name') if request.GET.get('name') else ""
