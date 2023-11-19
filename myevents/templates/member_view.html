@@ -48,7 +48,8 @@
                                         <th scope="row">
                                             <div class="d-flex align-items-center">
                                                 <span class="avatar avatar-xs me-2 online avatar-rounded">
-                                                  <img src="../media/photos/{{ photo }}" alt="img" width="32" height="32" class="rounded-circle">
+                                                  <img src="{% static 'images/'%}{{ photo }}" alt="img" width="32" height="32" class="rounded-circle">
+
 
                                                 </span>{{ item.fullname }}
                                             </div>

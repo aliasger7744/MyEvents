@@ -7959,3 +7959,1140 @@ F:\Hostingspaces\PyJango\myevents\myevents\settings.py changed, reloading.
 Watching for file changes with StatReloader
 F:\Hostingspaces\PyJango\myevents\members\views.py changed, reloading.
 Watching for file changes with StatReloader
+Internal Server Error: /member/member_update/850c4022-4106-4abe-9bd8-3243150d8867
+Traceback (most recent call last):
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\myevents\members\views.py", line 62, in member_update
+    with default_storage.open(file_path, 'wb') as destination:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\core\files\storage\base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\core\files\storage\filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'F:\\Hostingspaces\\PyJango\\myevents\\media\\photos\\man.png'
+"POST /member/member_update/850c4022-4106-4abe-9bd8-3243150d8867 HTTP/1.1" 500 79364
+"POST /member/member_update/850c4022-4106-4abe-9bd8-3243150d8867 HTTP/1.1" 302 0
+"GET /member/member_view HTTP/1.1" 200 14354
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2999
+"GET /static/images/photos/man.png HTTP/1.1" 404 1822
+"GET /static/images/photos/noimage.png HTTP/1.1" 304 0
+"GET /member/member_view HTTP/1.1" 200 14069
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2999
+Not Found: /photos/' %}noimage.png
+"GET /photos/'%20%%7Dnoimage.png HTTP/1.1" 404 2942
+Not Found: /photos/' %}man.png
+"GET /photos/'%20%%7Dman.png HTTP/1.1" 404 2930
+"GET /member/member_view HTTP/1.1" 200 14057
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2999
+Not Found: /member/photos/noimage.png
+"GET /member/photos/noimage.png HTTP/1.1" 404 3604
+Not Found: /member/photos/man.png
+"GET /member/photos/man.png HTTP/1.1" 404 3592
+"GET /member/member_view HTTP/1.1" 200 14057
+Not Found: /member/photos/noimage.png
+"GET /member/photos/noimage.png HTTP/1.1" 404 3604
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2999
+Not Found: /member/photos/man.png
+"GET /member/photos/man.png HTTP/1.1" 404 3592
+"GET /member/member_view HTTP/1.1" 200 14069
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2999
+Not Found: /member/media/photos/noimage.png
+"GET /member/media/photos/noimage.png HTTP/1.1" 404 3622
+Not Found: /member/media/photos/man.png
+"GET /member/media/photos/man.png HTTP/1.1" 404 3610
+"GET /member/member_view HTTP/1.1" 200 14069
+Not Found: /member/media/photos/noimage.png
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /member/media/photos/noimage.png HTTP/1.1" 404 3622
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2999
+Not Found: /member/media/photos/man.png
+"GET /member/media/photos/man.png HTTP/1.1" 404 3610
+"GET /member/member_view HTTP/1.1" 200 14057
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2999
+Not Found: /member/photos/noimage.png
+"GET /member/photos/noimage.png HTTP/1.1" 404 3604
+Not Found: /member/photos/man.png
+"GET /member/photos/man.png HTTP/1.1" 404 3592
+"GET /member/member_view HTTP/1.1" 200 14057
+Not Found: /member/photos/noimage.png
+"GET /member/photos/noimage.png HTTP/1.1" 404 3604
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2999
+Not Found: /member/photos/man.png
+"GET /member/photos/man.png HTTP/1.1" 404 3592
+"GET /member/member_view HTTP/1.1" 200 14075
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+Not Found: /media/photos/noimage.png
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2999
+"GET /media/photos/noimage.png HTTP/1.1" 404 2927
+Not Found: /media/photos/man.png
+"GET /media/photos/man.png HTTP/1.1" 404 2915
+"GET /member/member_view HTTP/1.1" 200 14075
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+Not Found: /media/photos/noimage.png
+"GET /media/photos/noimage.png HTTP/1.1" 404 2927
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2999
+Not Found: /media/photos/man.png
+"GET /media/photos/man.png HTTP/1.1" 404 2915
+F:\Hostingspaces\PyJango\myevents\myevents\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /member/member_view HTTP/1.1" 200 14059
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+Not Found: /member/photos/noimage.png
+"GET /member/photos/noimage.png HTTP/1.1" 404 3730
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 3125
+Not Found: /member/photos/man.png
+"GET /member/photos/man.png HTTP/1.1" 404 3718
+"GET /member/member_update/850c4022-4106-4abe-9bd8-3243150d8867 HTTP/1.1" 200 10968
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 3125
+"GET /member/member_view HTTP/1.1" 200 14059
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+Not Found: /member/images/noimage.png
+"GET /member/images/noimage.png HTTP/1.1" 404 3730
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 3125
+Not Found: /member/images/man.png
+"GET /member/images/man.png HTTP/1.1" 404 3718
+"GET /member/member_view HTTP/1.1" 200 14059
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 3125
+Not Found: /member/images/noimage.png
+"GET /member/images/noimage.png HTTP/1.1" 404 3730
+Not Found: /member/images/man.png
+"GET /member/images/man.png HTTP/1.1" 404 3718
+"GET /member/member_view HTTP/1.1" 200 14059
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 3125
+Not Found: /member/images/noimage.png
+"GET /member/images/noimage.png HTTP/1.1" 404 3730
+Not Found: /member/images/man.png
+"GET /member/images/man.png HTTP/1.1" 404 3718
+"GET /member/member_view HTTP/1.1" 200 14059
+Not Found: /member/images/noimage.png
+"GET /member/images/noimage.png HTTP/1.1" 404 3730
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 3125
+Not Found: /member/images/man.png
+"GET /member/images/man.png HTTP/1.1" 404 3718
+"GET /member/member_view HTTP/1.1" 200 14059
+Not Found: /member/images/noimage.png
+"GET /member/images/noimage.png HTTP/1.1" 404 3730
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 3125
+Not Found: /member/images/man.png
+"GET /member/images/man.png HTTP/1.1" 404 3718
+F:\Hostingspaces\PyJango\myevents\myevents\urls.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Hostingspaces\PyJango\myevents\myevents\urls.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Hostingspaces\PyJango\myevents\members\urls.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Hostingspaces\PyJango\myevents\members\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /member/member_view HTTP/1.1" 200 14059
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2999
+Not Found: /member/images/noimage.png
+"GET /member/images/noimage.png HTTP/1.1" 404 3784
+Not Found: /member/images/man.png
+"GET /member/images/man.png HTTP/1.1" 404 3772
+"GET /member/member_view HTTP/1.1" 200 14059
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2999
+Not Found: /member/images/noimage.png
+"GET /member/images/noimage.png HTTP/1.1" 404 3784
+Not Found: /member/images/man.png
+"GET /member/images/man.png HTTP/1.1" 404 3772
+F:\Hostingspaces\PyJango\myevents\myevents\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /member/member_view
+Traceback (most recent call last):
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\myevents\members\views.py", line 118, in member_view
+    return render(req, "member_view.html", context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: member_view.html
+"GET /member/member_view HTTP/1.1" 500 81743
+F:\Hostingspaces\PyJango\myevents\myevents\settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /member/member_view HTTP/1.1" 200 14059
+"GET /static/images/photos/noimage.png HTTP/1.1" 404 1834
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2999
+Not Found: /member/images/noimage.png
+"GET /member/images/noimage.png HTTP/1.1" 404 3784
+Not Found: /member/images/man.png
+"GET /member/images/man.png HTTP/1.1" 404 3772
+"GET /member/member_view HTTP/1.1" 200 14032
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2999
+Not Found: /member/static/libs/bootstrap/css/bootstrap.min.css
+"GET /member/static/libs/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 3859
+Not Found: /member/static/css/styles.min.css
+"GET /member/static/css/styles.min.css HTTP/1.1" 404 3805
+Not Found: /member/static/css/icons.css
+"GET /member/static/css/icons.css HTTP/1.1" 404 3790
+Not Found: /member/static/libs/node-waves/waves.min.css
+"GET /member/static/libs/node-waves/waves.min.css HTTP/1.1" 404 3838
+Not Found: /member/static/libs/simplebar/simplebar.min.css
+"GET /member/static/libs/simplebar/simplebar.min.css HTTP/1.1" 404 3847
+Not Found: /member/static/libs/flatpickr/flatpickr.min.css
+"GET /member/static/libs/flatpickr/flatpickr.min.css HTTP/1.1" 404 3847
+Not Found: /member/static/libs/@simonwep/pickr/themes/nano.min.css
+"GET /member/static/libs/@simonwep/pickr/themes/nano.min.css HTTP/1.1" 404 3871
+Not Found: /member/static/libs/choices.js/public/assets/styles/choices.min.css
+"GET /member/static/libs/choices.js/public/assets/styles/choices.min.css HTTP/1.1" 404 3907
+Not Found: /member/static/libs/choices.js/public/assets/scripts/choices.min.js
+"GET /member/static/libs/choices.js/public/assets/scripts/choices.min.js HTTP/1.1" 404 3907
+Not Found: /member/static/js/main.js
+"GET /member/static/js/main.js HTTP/1.1" 404 3781
+Not Found: /member/static/images/brand-logos/desktop-logo.png
+"GET /member/static/images/brand-logos/desktop-logo.png HTTP/1.1" 404 3856
+Not Found: /member/static/libs/bootstrap/css/bootstrap.min.css
+"GET /member/static/libs/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 3859
+Not Found: /member/static/css/styles.min.css
+"GET /member/static/css/styles.min.css HTTP/1.1" 404 3805
+Not Found: /member/static/css/icons.css
+"GET /member/static/css/icons.css HTTP/1.1" 404 3790
+Not Found: /member/static/libs/node-waves/waves.min.css
+"GET /member/static/libs/node-waves/waves.min.css HTTP/1.1" 404 3838
+Not Found: /member/static/libs/simplebar/simplebar.min.css
+"GET /member/static/libs/simplebar/simplebar.min.css HTTP/1.1" 404 3847
+Not Found: /member/static/libs/flatpickr/flatpickr.min.css
+"GET /member/static/libs/flatpickr/flatpickr.min.css HTTP/1.1" 404 3847
+Not Found: /member/static/libs/@simonwep/pickr/themes/nano.min.css
+"GET /member/static/libs/@simonwep/pickr/themes/nano.min.css HTTP/1.1" 404 3871
+Not Found: /member/static/libs/choices.js/public/assets/styles/choices.min.css
+"GET /member/static/libs/choices.js/public/assets/styles/choices.min.css HTTP/1.1" 404 3907
+Not Found: /member/static/libs/@popperjs/core/umd/popper.min.js
+"GET /member/static/libs/@popperjs/core/umd/popper.min.js HTTP/1.1" 404 3862
+Not Found: /member/static/images/brand-logos/toggle-logo.png
+"GET /member/static/images/brand-logos/toggle-logo.png HTTP/1.1" 404 3853
+Not Found: /member/static//images/photos/' %}noimage.png
+"GET /member/static//images/photos/'%20%%7Dnoimage.png HTTP/1.1" 404 3862
+Not Found: /member/images/man.png
+"GET /member/images/man.png HTTP/1.1" 404 3772
+Not Found: /member/images/noimage.png
+"GET /member/images/noimage.png HTTP/1.1" 404 3784
+Not Found: /member/static/images/brand-logos/desktop-dark.png
+"GET /member/static/images/brand-logos/desktop-dark.png HTTP/1.1" 404 3856
+Not Found: /member/static/images/brand-logos/toggle-dark.png
+"GET /member/static/images/brand-logos/toggle-dark.png HTTP/1.1" 404 3853
+Not Found: /member/static/libs/bootstrap/js/bootstrap.bundle.min.js
+"GET /member/static/libs/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 404 3874
+Not Found: /member/static/js/defaultmenu.min.js
+"GET /member/static/js/defaultmenu.min.js HTTP/1.1" 404 3814
+Not Found: /member/static/libs/node-waves/waves.min.js
+"GET /member/static/libs/node-waves/waves.min.js HTTP/1.1" 404 3835
+Not Found: /member/static/js/sticky.js
+"GET /member/static/js/sticky.js HTTP/1.1" 404 3787
+Not Found: /member/static/libs/simplebar/simplebar.min.js
+"GET /member/static/libs/simplebar/simplebar.min.js HTTP/1.1" 404 3844
+Not Found: /member/static/js/simplebar.js
+"GET /member/static/js/simplebar.js HTTP/1.1" 404 3796
+Not Found: /member/static/libs/@simonwep/pickr/pickr.es5.min.js
+"GET /member/static/libs/@simonwep/pickr/pickr.es5.min.js HTTP/1.1" 404 3862
+Not Found: /member/static/js/custom-switcher.min.js
+"GET /member/static/js/custom-switcher.min.js HTTP/1.1" 404 3826
+Not Found: /member/static/js/custom.js
+"GET /member/static/js/custom.js HTTP/1.1" 404 3787
+Not Found: /member/static/images/brand-logos/favicon.ico' %}
+"GET /member/static/images/brand-logos/favicon.ico'%20%%7D HTTP/1.1" 404 3874
+"GET /member/member_view HTTP/1.1" 200 14032
+Not Found: /member/static/css/styles.min.css
+"GET /member/static/css/styles.min.css HTTP/1.1" 404 3805
+Not Found: /member/static/libs/bootstrap/css/bootstrap.min.css
+"GET /member/static/libs/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 3859
+Not Found: /member/static/js/main.js
+"GET /member/static/js/main.js HTTP/1.1" 404 3781
+- Broken pipe from ('127.0.0.1', 59608)
+Not Found: /member/static/libs/choices.js/public/assets/scripts/choices.min.js
+"GET /member/static/libs/choices.js/public/assets/scripts/choices.min.js HTTP/1.1" 404 3907
+Not Found: /member/static/css/icons.css
+"GET /member/static/css/icons.css HTTP/1.1" 404 3790
+Not Found: /member/static/libs/node-waves/waves.min.css
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /member/static/libs/node-waves/waves.min.css HTTP/1.1" 404 3838
+Not Found: /member/static/libs/simplebar/simplebar.min.css
+"GET /member/static/libs/simplebar/simplebar.min.css HTTP/1.1" 404 3847
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2999
+- Broken pipe from ('127.0.0.1', 59589)
+Not Found: /member/static/libs/flatpickr/flatpickr.min.css
+Not Found: /member/static/libs/@simonwep/pickr/themes/nano.min.css
+"GET /member/static/libs/@simonwep/pickr/themes/nano.min.css HTTP/1.1" 404 3871
+- Broken pipe from ('127.0.0.1', 59611)
+"GET /member/static/libs/flatpickr/flatpickr.min.css HTTP/1.1" 404 3847
+Not Found: /member/static/libs/choices.js/public/assets/styles/choices.min.css
+"GET /member/static/libs/choices.js/public/assets/styles/choices.min.css HTTP/1.1" 404 3907
+Not Found: /member/static/libs/bootstrap/css/bootstrap.min.css
+"GET /member/static/libs/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 3859
+Not Found: /member/static/css/styles.min.css
+"GET /member/static/css/styles.min.css HTTP/1.1" 404 3805
+Not Found: /member/static/css/icons.css
+"GET /member/static/css/icons.css HTTP/1.1" 404 3790
+Not Found: /member/static/libs/node-waves/waves.min.css
+"GET /member/static/libs/node-waves/waves.min.css HTTP/1.1" 404 3838
+Not Found: /member/static/libs/@popperjs/core/umd/popper.min.js
+"GET /member/static/libs/@popperjs/core/umd/popper.min.js HTTP/1.1" 404 3862
+- Broken pipe from ('127.0.0.1', 59607)
+Not Found: /member/static/images/brand-logos/desktop-logo.png
+"GET /member/static/images/brand-logos/desktop-logo.png HTTP/1.1" 404 3856
+Not Found: /member/static/images/brand-logos/toggle-logo.png
+"GET /member/static/images/brand-logos/toggle-logo.png HTTP/1.1" 404 3853
+Not Found: /member/images/man.png
+"GET /member/images/man.png HTTP/1.1" 404 3772
+Not Found: /member/images/noimage.png
+"GET /member/images/noimage.png HTTP/1.1" 404 3784
+Not Found: /member/static//images/photos/' %}noimage.png
+"GET /member/static//images/photos/'%20%%7Dnoimage.png HTTP/1.1" 404 3862
+Not Found: /member/static/images/brand-logos/desktop-dark.png
+"GET /member/static/images/brand-logos/desktop-dark.png HTTP/1.1" 404 3856
+Not Found: /member/static/libs/bootstrap/js/bootstrap.bundle.min.js
+"GET /member/static/libs/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 404 3874
+Not Found: /member/static/images/brand-logos/toggle-dark.png
+"GET /member/static/images/brand-logos/toggle-dark.png HTTP/1.1" 404 3853
+Not Found: /member/static/js/defaultmenu.min.js
+"GET /member/static/js/defaultmenu.min.js HTTP/1.1" 404 3814
+Not Found: /member/static/libs/node-waves/waves.min.js
+"GET /member/static/libs/node-waves/waves.min.js HTTP/1.1" 404 3835
+Not Found: /member/static/js/sticky.js
+"GET /member/static/js/sticky.js HTTP/1.1" 404 3787
+Not Found: /member/static/libs/simplebar/simplebar.min.js
+"GET /member/static/libs/simplebar/simplebar.min.js HTTP/1.1" 404 3844
+Not Found: /member/static/js/simplebar.js
+"GET /member/static/js/simplebar.js HTTP/1.1" 404 3796
+Not Found: /member/static/libs/@simonwep/pickr/pickr.es5.min.js
+"GET /member/static/libs/@simonwep/pickr/pickr.es5.min.js HTTP/1.1" 404 3862
+Not Found: /member/static/js/custom-switcher.min.js
+Not Found: /member/static/js/custom.js
+"GET /member/static/js/custom-switcher.min.js HTTP/1.1" 404 3826
+"GET /member/static/js/custom.js HTTP/1.1" 404 3787
+F:\Hostingspaces\PyJango\myevents\myevents\settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /member/member_view HTTP/1.1" 200 14032
+Not Found: /member/static/js/main.js
+"GET /member/static/js/main.js HTTP/1.1" 404 3781
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2999
+Not Found: /member/static/libs/simplebar/simplebar.min.css
+"GET /member/static/libs/simplebar/simplebar.min.css HTTP/1.1" 404 3847
+Not Found: /member/static/libs/flatpickr/flatpickr.min.css
+"GET /member/static/libs/flatpickr/flatpickr.min.css HTTP/1.1" 404 3847
+Not Found: /member/static/libs/@simonwep/pickr/themes/nano.min.css
+"GET /member/static/libs/@simonwep/pickr/themes/nano.min.css HTTP/1.1" 404 3871
+Not Found: /member/static/libs/bootstrap/css/bootstrap.min.css
+"GET /member/static/libs/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 3859
+Not Found: /member/static/css/styles.min.css
+"GET /member/static/css/styles.min.css HTTP/1.1" 404 3805
+Not Found: /member/static/css/icons.css
+"GET /member/static/css/icons.css HTTP/1.1" 404 3790
+Not Found: /member/static/libs/node-waves/waves.min.css
+Not Found: /member/static/libs/choices.js/public/assets/styles/choices.min.css
+"GET /member/static/libs/node-waves/waves.min.css HTTP/1.1" 404 3838
+"GET /member/static/libs/choices.js/public/assets/styles/choices.min.css HTTP/1.1" 404 3907
+Not Found: /member/static/libs/choices.js/public/assets/scripts/choices.min.js
+Not Found: /member/static/images/brand-logos/desktop-logo.png
+"GET /member/static/libs/choices.js/public/assets/scripts/choices.min.js HTTP/1.1" 404 3907
+"GET /member/static/images/brand-logos/desktop-logo.png HTTP/1.1" 404 3856
+Not Found: /member/static/images/brand-logos/toggle-logo.png
+"GET /member/static/images/brand-logos/toggle-logo.png HTTP/1.1" 404 3853
+Not Found: /member/static/images/brand-logos/desktop-dark.png
+"GET /member/static/images/brand-logos/desktop-dark.png HTTP/1.1" 404 3856
+Not Found: /member/static/css/styles.min.css
+"GET /member/static/css/styles.min.css HTTP/1.1" 404 3805
+Not Found: /member/static/libs/bootstrap/css/bootstrap.min.css
+"GET /member/static/libs/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 3859
+- Broken pipe from ('127.0.0.1', 59624)
+Not Found: /member/static/css/icons.css
+"GET /member/static/css/icons.css HTTP/1.1" 404 3790
+Not Found: /member/static/libs/node-waves/waves.min.css
+"GET /member/static/libs/node-waves/waves.min.css HTTP/1.1" 404 3838
+Not Found: /member/static/libs/simplebar/simplebar.min.css
+"GET /member/static/libs/simplebar/simplebar.min.css HTTP/1.1" 404 3847
+Not Found: /member/static/libs/flatpickr/flatpickr.min.css
+"GET /member/static/libs/flatpickr/flatpickr.min.css HTTP/1.1" 404 3847
+Not Found: /member/static/libs/@simonwep/pickr/themes/nano.min.css
+"GET /member/static/libs/@simonwep/pickr/themes/nano.min.css HTTP/1.1" 404 3871
+Not Found: /member/static/libs/choices.js/public/assets/styles/choices.min.css
+"GET /member/static/libs/choices.js/public/assets/styles/choices.min.css HTTP/1.1" 404 3907
+Not Found: /member/static/libs/@popperjs/core/umd/popper.min.js
+"GET /member/static/libs/@popperjs/core/umd/popper.min.js HTTP/1.1" 404 3862
+Not Found: /member/images/man.png
+"GET /member/images/man.png HTTP/1.1" 404 3772
+Not Found: /member/static//images/photos/' %}noimage.png
+"GET /member/static//images/photos/'%20%%7Dnoimage.png HTTP/1.1" 404 3862
+Not Found: /member/images/noimage.png
+"GET /member/images/noimage.png HTTP/1.1" 404 3784
+Not Found: /member/static/images/brand-logos/desktop-logo.png
+"GET /member/static/images/brand-logos/desktop-logo.png HTTP/1.1" 404 3856
+Not Found: /member/static/images/brand-logos/toggle-dark.png
+"GET /member/static/images/brand-logos/toggle-dark.png HTTP/1.1" 404 3853
+Not Found: /member/static/libs/bootstrap/js/bootstrap.bundle.min.js
+"GET /member/static/libs/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 404 3874
+Not Found: /member/static/js/defaultmenu.min.js
+"GET /member/static/js/defaultmenu.min.js HTTP/1.1" 404 3814
+Not Found: /member/static/libs/node-waves/waves.min.js
+"GET /member/static/libs/node-waves/waves.min.js HTTP/1.1" 404 3835
+Not Found: /member/static/js/sticky.js
+"GET /member/static/js/sticky.js HTTP/1.1" 404 3787
+Not Found: /member/static/libs/simplebar/simplebar.min.js
+"GET /member/static/libs/simplebar/simplebar.min.js HTTP/1.1" 404 3844
+Not Found: /member/static/js/simplebar.js
+"GET /member/static/js/simplebar.js HTTP/1.1" 404 3796
+Not Found: /member/static/libs/@simonwep/pickr/pickr.es5.min.js
+"GET /member/static/libs/@simonwep/pickr/pickr.es5.min.js HTTP/1.1" 404 3862
+Not Found: /member/static/js/custom-switcher.min.js
+"GET /member/static/js/custom-switcher.min.js HTTP/1.1" 404 3826
+Not Found: /member/static/js/custom.js
+"GET /member/static/js/custom.js HTTP/1.1" 404 3787
+"GET /member/member_view HTTP/1.1" 200 14032
+Not Found: /member/static/libs/choices.js/public/assets/scripts/choices.min.js
+Not Found: /member/static/js/main.js
+"GET /member/static/libs/choices.js/public/assets/scripts/choices.min.js HTTP/1.1" 404 3907
+- Broken pipe from ('127.0.0.1', 59630)
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+Not Found: /member/static/css/styles.min.css
+"GET /member/static/js/main.js HTTP/1.1" 404 3781
+- Broken pipe from ('127.0.0.1', 59631)
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2999
+Not Found: /member/static/css/icons.css
+"GET /member/static/css/styles.min.css HTTP/1.1" 404 3805
+Not Found: /member/static/libs/bootstrap/css/bootstrap.min.css
+"GET /member/static/css/icons.css HTTP/1.1" 404 3790
+"GET /member/static/libs/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 3859
+- Broken pipe from ('127.0.0.1', 59623)
+Not Found: /member/static/libs/node-waves/waves.min.css
+"GET /member/static/libs/node-waves/waves.min.css HTTP/1.1" 404 3838
+Not Found: /member/static/libs/simplebar/simplebar.min.css
+"GET /member/static/libs/simplebar/simplebar.min.css HTTP/1.1" 404 3847
+Not Found: /member/static/libs/flatpickr/flatpickr.min.css
+"GET /member/static/libs/flatpickr/flatpickr.min.css HTTP/1.1" 404 3847
+Not Found: /member/static/libs/@simonwep/pickr/themes/nano.min.css
+"GET /member/static/libs/@simonwep/pickr/themes/nano.min.css HTTP/1.1" 404 3871
+Not Found: /member/static/libs/choices.js/public/assets/styles/choices.min.css
+"GET /member/static/libs/choices.js/public/assets/styles/choices.min.css HTTP/1.1" 404 3907
+Not Found: /member/static/css/styles.min.css
+"GET /member/static/css/styles.min.css HTTP/1.1" 404 3805
+Not Found: /member/static/libs/@popperjs/core/umd/popper.min.js
+"GET /member/static/libs/@popperjs/core/umd/popper.min.js HTTP/1.1" 404 3862
+Not Found: /member/static/images/brand-logos/desktop-logo.png
+Not Found: /member/static/images/brand-logos/toggle-logo.png
+"GET /member/static/images/brand-logos/desktop-logo.png HTTP/1.1" 404 3856
+"GET /member/static/images/brand-logos/toggle-logo.png HTTP/1.1" 404 3853
+Not Found: /member/images/noimage.png
+"GET /member/images/noimage.png HTTP/1.1" 404 3784
+Not Found: /member/static//images/photos/' %}noimage.png
+"GET /member/static//images/photos/'%20%%7Dnoimage.png HTTP/1.1" 404 3862
+Not Found: /member/images/man.png
+"GET /member/images/man.png HTTP/1.1" 404 3772
+Not Found: /member/static/images/brand-logos/desktop-dark.png
+"GET /member/static/images/brand-logos/desktop-dark.png HTTP/1.1" 404 3856
+Not Found: /member/static/images/brand-logos/toggle-dark.png
+"GET /member/static/images/brand-logos/toggle-dark.png HTTP/1.1" 404 3853
+Not Found: /member/static/libs/bootstrap/js/bootstrap.bundle.min.js
+"GET /member/static/libs/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 404 3874
+Not Found: /member/static/libs/node-waves/waves.min.js
+"GET /member/static/libs/node-waves/waves.min.js HTTP/1.1" 404 3835
+Not Found: /member/static/js/defaultmenu.min.js
+"GET /member/static/js/defaultmenu.min.js HTTP/1.1" 404 3814
+Not Found: /member/static/js/simplebar.js
+Not Found: /member/static/js/sticky.js
+"GET /member/static/js/simplebar.js HTTP/1.1" 404 3796
+Not Found: /member/static/libs/simplebar/simplebar.min.js
+"GET /member/static/js/sticky.js HTTP/1.1" 404 3787
+"GET /member/static/libs/simplebar/simplebar.min.js HTTP/1.1" 404 3844
+Not Found: /member/static/js/custom-switcher.min.js
+"GET /member/static/js/custom-switcher.min.js HTTP/1.1" 404 3826
+Not Found: /member/static/libs/@simonwep/pickr/pickr.es5.min.js
+Not Found: /member/static/js/custom.js
+"GET /member/static/js/custom.js HTTP/1.1" 404 3787
+"GET /member/static/libs/@simonwep/pickr/pickr.es5.min.js HTTP/1.1" 404 3862
+"GET /member/member_view HTTP/1.1" 200 14032
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2999
+Not Found: /member/static/libs/bootstrap/css/bootstrap.min.css
+Not Found: /member/static/css/styles.min.css
+"GET /member/static/libs/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 3859
+- Broken pipe from ('127.0.0.1', 59638)
+Not Found: /member/static/css/icons.css
+"GET /member/static/css/styles.min.css HTTP/1.1" 404 3805
+- Broken pipe from ('127.0.0.1', 59639)
+Not Found: /member/static/js/main.js
+"GET /member/static/css/icons.css HTTP/1.1" 404 3790
+"GET /member/static/js/main.js HTTP/1.1" 404 3781
+- Broken pipe from ('127.0.0.1', 59632)
+Not Found: /member/static/libs/choices.js/public/assets/scripts/choices.min.js
+"GET /member/static/libs/choices.js/public/assets/scripts/choices.min.js HTTP/1.1" 404 3907
+Not Found: /member/static/libs/node-waves/waves.min.css
+"GET /member/static/libs/node-waves/waves.min.css HTTP/1.1" 404 3838
+Not Found: /member/static/libs/simplebar/simplebar.min.css
+"GET /member/static/libs/simplebar/simplebar.min.css HTTP/1.1" 404 3847
+Not Found: /member/static/libs/flatpickr/flatpickr.min.css
+"GET /member/static/libs/flatpickr/flatpickr.min.css HTTP/1.1" 404 3847
+Not Found: /member/static/libs/@simonwep/pickr/themes/nano.min.css
+Not Found: /member/static/libs/choices.js/public/assets/styles/choices.min.css
+"GET /member/static/libs/@simonwep/pickr/themes/nano.min.css HTTP/1.1" 404 3871
+- Broken pipe from ('127.0.0.1', 59633)
+"GET /member/static/libs/choices.js/public/assets/styles/choices.min.css HTTP/1.1" 404 3907
+Not Found: /member/static/libs/bootstrap/css/bootstrap.min.css
+"GET /member/static/libs/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 3859
+Not Found: /member/static/css/styles.min.css
+"GET /member/static/css/styles.min.css HTTP/1.1" 404 3805
+Not Found: /member/static/libs/@popperjs/core/umd/popper.min.js
+Not Found: /member/static/css/icons.css
+"GET /member/static/libs/@popperjs/core/umd/popper.min.js HTTP/1.1" 404 3862
+"GET /member/static/css/icons.css HTTP/1.1" 404 3790
+Not Found: /member/static/images/brand-logos/desktop-logo.png
+Not Found: /member/static/images/brand-logos/toggle-logo.png
+"GET /member/static/images/brand-logos/toggle-logo.png HTTP/1.1" 404 3853
+"GET /member/static/images/brand-logos/desktop-logo.png HTTP/1.1" 404 3856
+Not Found: /member/images/noimage.png
+"GET /member/images/noimage.png HTTP/1.1" 404 3784
+Not Found: /member/static//images/photos/' %}noimage.png
+"GET /member/static//images/photos/'%20%%7Dnoimage.png HTTP/1.1" 404 3862
+Not Found: /member/images/man.png
+"GET /member/images/man.png HTTP/1.1" 404 3772
+Not Found: /member/static/images/brand-logos/desktop-dark.png
+"GET /member/static/images/brand-logos/desktop-dark.png HTTP/1.1" 404 3856
+Not Found: /member/static/images/brand-logos/toggle-dark.png
+"GET /member/static/images/brand-logos/toggle-dark.png HTTP/1.1" 404 3853
+Not Found: /member/static/libs/bootstrap/js/bootstrap.bundle.min.js
+"GET /member/static/libs/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 404 3874
+Not Found: /member/static/js/defaultmenu.min.js
+"GET /member/static/js/defaultmenu.min.js HTTP/1.1" 404 3814
+Not Found: /member/static/libs/node-waves/waves.min.js
+"GET /member/static/libs/node-waves/waves.min.js HTTP/1.1" 404 3835
+Not Found: /member/static/js/sticky.js
+"GET /member/static/js/sticky.js HTTP/1.1" 404 3787
+Not Found: /member/static/libs/simplebar/simplebar.min.js
+"GET /member/static/libs/simplebar/simplebar.min.js HTTP/1.1" 404 3844
+Not Found: /member/static/js/simplebar.js
+"GET /member/static/js/simplebar.js HTTP/1.1" 404 3796
+Not Found: /member/static/libs/@simonwep/pickr/pickr.es5.min.js
+"GET /member/static/libs/@simonwep/pickr/pickr.es5.min.js HTTP/1.1" 404 3862
+Not Found: /member/static/js/custom-switcher.min.js
+"GET /member/static/js/custom-switcher.min.js HTTP/1.1" 404 3826
+Not Found: /member/static/js/custom.js
+"GET /member/static/js/custom.js HTTP/1.1" 404 3787
+Watching for file changes with StatReloader
+"GET /member/member_view HTTP/1.1" 200 14032
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2999
+Not Found: /member/static/js/main.js
+"GET /member/static/js/main.js HTTP/1.1" 404 3781
+Not Found: /member/static/libs/bootstrap/css/bootstrap.min.css
+"GET /member/static/libs/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 3859
+Not Found: /member/static/libs/@simonwep/pickr/themes/nano.min.css
+"GET /member/static/libs/@simonwep/pickr/themes/nano.min.css HTTP/1.1" 404 3871
+Not Found: /member/static/css/styles.min.css
+"GET /member/static/css/styles.min.css HTTP/1.1" 404 3805
+Not Found: /member/static/css/icons.css
+"GET /member/static/css/icons.css HTTP/1.1" 404 3790
+Not Found: /member/static/libs/simplebar/simplebar.min.css
+"GET /member/static/libs/simplebar/simplebar.min.css HTTP/1.1" 404 3847
+Not Found: /member/static/libs/node-waves/waves.min.css
+"GET /member/static/libs/node-waves/waves.min.css HTTP/1.1" 404 3838
+Not Found: /member/static/libs/flatpickr/flatpickr.min.css
+"GET /member/static/libs/flatpickr/flatpickr.min.css HTTP/1.1" 404 3847
+Not Found: /member/static/libs/choices.js/public/assets/styles/choices.min.css
+"GET /member/static/libs/choices.js/public/assets/styles/choices.min.css HTTP/1.1" 404 3907
+- Broken pipe from ('127.0.0.1', 59657)
+Not Found: /member/static/libs/choices.js/public/assets/scripts/choices.min.js
+"GET /member/static/libs/choices.js/public/assets/scripts/choices.min.js HTTP/1.1" 404 3907
+Not Found: /member/static/images/brand-logos/desktop-logo.png
+"GET /member/static/images/brand-logos/desktop-logo.png HTTP/1.1" 404 3856
+Not Found: /member/static/libs/choices.js/public/assets/styles/choices.min.css
+"GET /member/static/libs/choices.js/public/assets/styles/choices.min.css HTTP/1.1" 404 3907
+Not Found: /member/static/libs/bootstrap/css/bootstrap.min.css
+"GET /member/static/libs/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 3859
+Not Found: /member/static/css/styles.min.css
+"GET /member/static/css/styles.min.css HTTP/1.1" 404 3805
+Not Found: /member/static/css/icons.css
+"GET /member/static/css/icons.css HTTP/1.1" 404 3790
+Not Found: /member/static/libs/node-waves/waves.min.css
+"GET /member/static/libs/node-waves/waves.min.css HTTP/1.1" 404 3838
+Not Found: /member/static/libs/simplebar/simplebar.min.css
+"GET /member/static/libs/simplebar/simplebar.min.css HTTP/1.1" 404 3847
+Not Found: /member/static/libs/flatpickr/flatpickr.min.css
+"GET /member/static/libs/flatpickr/flatpickr.min.css HTTP/1.1" 404 3847
+Not Found: /member/static/libs/@simonwep/pickr/themes/nano.min.css
+"GET /member/static/libs/@simonwep/pickr/themes/nano.min.css HTTP/1.1" 404 3871
+Not Found: /member/static/libs/@popperjs/core/umd/popper.min.js
+"GET /member/static/libs/@popperjs/core/umd/popper.min.js HTTP/1.1" 404 3862
+Not Found: /member/images/noimage.png
+"GET /member/images/noimage.png HTTP/1.1" 404 3784
+Not Found: /member/static//images/photos/' %}noimage.png
+"GET /member/static//images/photos/'%20%%7Dnoimage.png HTTP/1.1" 404 3862
+Not Found: /member/images/man.png
+"GET /member/images/man.png HTTP/1.1" 404 3772
+Not Found: /member/static/images/brand-logos/toggle-logo.png
+"GET /member/static/images/brand-logos/toggle-logo.png HTTP/1.1" 404 3853
+Not Found: /member/static/images/brand-logos/desktop-dark.png
+"GET /member/static/images/brand-logos/desktop-dark.png HTTP/1.1" 404 3856
+Not Found: /member/static/images/brand-logos/toggle-dark.png
+"GET /member/static/images/brand-logos/toggle-dark.png HTTP/1.1" 404 3853
+Not Found: /member/static/libs/bootstrap/js/bootstrap.bundle.min.js
+"GET /member/static/libs/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 404 3874
+Not Found: /member/static/js/defaultmenu.min.js
+"GET /member/static/js/defaultmenu.min.js HTTP/1.1" 404 3814
+Not Found: /member/static/libs/node-waves/waves.min.js
+"GET /member/static/libs/node-waves/waves.min.js HTTP/1.1" 404 3835
+Not Found: /member/static/js/sticky.js
+"GET /member/static/js/sticky.js HTTP/1.1" 404 3787
+Not Found: /member/static/libs/simplebar/simplebar.min.js
+"GET /member/static/libs/simplebar/simplebar.min.js HTTP/1.1" 404 3844
+Not Found: /member/static/js/simplebar.js
+"GET /member/static/js/simplebar.js HTTP/1.1" 404 3796
+Not Found: /member/static/libs/@simonwep/pickr/pickr.es5.min.js
+"GET /member/static/libs/@simonwep/pickr/pickr.es5.min.js HTTP/1.1" 404 3862
+Not Found: /member/static/js/custom-switcher.min.js
+"GET /member/static/js/custom-switcher.min.js HTTP/1.1" 404 3826
+Not Found: /member/static/js/custom.js
+"GET /member/static/js/custom.js HTTP/1.1" 404 3787
+F:\Hostingspaces\PyJango\myevents\myevents\settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /member/member_view HTTP/1.1" 200 14032
+Not Found: /member/static/images/brand-logos/favicon.ico' %}
+"GET /member/static/images/brand-logos/favicon.ico'%20%%7D HTTP/1.1" 404 3874
+"GET /static/images/brand-logos/favicon.ico'%20%%7D HTTP/1.1" 404 1882
+"GET /member/member_view HTTP/1.1" 200 14028
+"GET /member/member_view HTTP/1.1" 200 14028
+Not Found: /member/static/libs/choices.js/public/assets/scripts/choices.min.js
+"GET /member/static/libs/choices.js/public/assets/scripts/choices.min.js HTTP/1.1" 404 3907
+F:\Hostingspaces\PyJango\myevents\myevents\settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /static/libs/choices.js/public/assets/scripts/choices.min.js HTTP/1.1" 404 1915
+F:\Hostingspaces\PyJango\myevents\myevents\settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /static/libs/choices.js/public/assets/scripts/choices.min.js HTTP/1.1" 200 73785
+"GET /member/member_view HTTP/1.1" 200 14059
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2999
+Not Found: /member/images/man.png
+Not Found: /member/images/noimage.png
+"GET /member/images/noimage.png HTTP/1.1" 404 3784
+"GET /member/images/man.png HTTP/1.1" 404 3772
+"GET /static/images/photos/noimage.png HTTP/1.1" 200 1801
+"GET /member/member_update/850c4022-4106-4abe-9bd8-3243150d8867 HTTP/1.1" 200 12617
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2999
+F:\Hostingspaces\PyJango\myevents\myapp\context_processors.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /member/member_view HTTP/1.1" 200 12630
+"GET /static/images/photos/ HTTP/1.1" 404 1795
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2999
+Not Found: /member/images/noimage.png
+"GET /member/images/noimage.png HTTP/1.1" 404 3784
+Not Found: /member/images/man.png
+"GET /member/images/man.png HTTP/1.1" 404 3772
+"GET /member/member_view HTTP/1.1" 200 12630
+"GET /static/images/photos/ HTTP/1.1" 404 1795
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2999
+Not Found: /member/images/man.png
+"GET /member/images/man.png HTTP/1.1" 404 3772
+Not Found: /member/images/noimage.png
+"GET /member/images/noimage.png HTTP/1.1" 404 3784
+"GET /member/member_view HTTP/1.1" 200 12630
+"GET /static/images/photos/ HTTP/1.1" 404 1795
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2999
+Not Found: /member/images/noimage.png
+"GET /member/images/noimage.png HTTP/1.1" 404 3784
+Not Found: /member/images/man.png
+"GET /member/images/man.png HTTP/1.1" 404 3772
+"GET /member/member_view HTTP/1.1" 200 12630
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2999
+"GET /static/images/photos/ HTTP/1.1" 404 1795
+Not Found: /member/images/noimage.png
+"GET /member/images/noimage.png HTTP/1.1" 404 3784
+Not Found: /member/images/man.png
+"GET /member/images/man.png HTTP/1.1" 404 3772
+F:\Hostingspaces\PyJango\myevents\myapp\context_processors.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /member/member_view HTTP/1.1" 200 13652
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+Not Found: /member/images/noimage.png
+"GET /member/images/noimage.png HTTP/1.1" 404 3784
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2999
+Not Found: /member/images/man.png
+"GET /member/images/man.png HTTP/1.1" 404 3772
+"GET /member/member_view HTTP/1.1" 200 13269
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2999
+Not Found: /member/images/noimage.png
+"GET /member/images/noimage.png HTTP/1.1" 404 3784
+Not Found: /member/images/man.png
+"GET /member/images/man.png HTTP/1.1" 404 3772
+Not Found: /member/index.html
+"GET /member/index.html HTTP/1.1" 404 3760
+"GET /member/member_view HTTP/1.1" 200 13278
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2999
+Not Found: /member/images/noimage.png
+"GET /member/images/noimage.png HTTP/1.1" 404 3784
+Not Found: /member/images/man.png
+"GET /member/images/man.png HTTP/1.1" 404 3772
+"GET /member/member_view HTTP/1.1" 200 13299
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+Not Found: /member/images/noimage.png
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2999
+"GET /member/images/noimage.png HTTP/1.1" 404 3784
+Not Found: /member/images/man.png
+"GET /member/images/man.png HTTP/1.1" 404 3772
+"GET /logout HTTP/1.1" 302 0
+"GET /login HTTP/1.1" 200 3923
+"GET /login HTTP/1.1" 200 3923
+"POST /login HTTP/1.1" 302 0
+"GET /dashboard HTTP/1.1" 200 9130
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2999
+"GET /member/member_view HTTP/1.1" 200 13299
+Not Found: /member/images/noimage.png
+"GET /member/images/noimage.png HTTP/1.1" 404 3784
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2999
+Not Found: /member/images/man.png
+"GET /member/images/man.png HTTP/1.1" 404 3772
+"GET /member/member_update/0 HTTP/1.1" 200 11737
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2999
+"GET /member/member_view HTTP/1.1" 200 13299
+Not Found: /member/images/noimage.png
+"GET /member/images/noimage.png HTTP/1.1" 404 3784
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2999
+Not Found: /member/images/man.png
+"GET /member/images/man.png HTTP/1.1" 404 3772
+"GET /member/member_update/850c4022-4106-4abe-9bd8-3243150d8867 HTTP/1.1" 200 11857
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2999
+F:\Hostingspaces\PyJango\myevents\members\urls.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Hostingspaces\PyJango\myevents\members\views.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Hostingspaces\PyJango\myevents\members\views.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Hostingspaces\PyJango\myevents\members\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /member/member_update/850c4022-4106-4abe-9bd8-3243150d8867 HTTP/1.1" 200 11857
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2999
+"POST /member/member_update/850c4022-4106-4abe-9bd8-3243150d8867 HTTP/1.1" 302 0
+"GET /member/member_view HTTP/1.1" 200 13578
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2999
+Not Found: /member/images/noimage.png
+"GET /member/images/noimage.png HTTP/1.1" 404 3604
+Not Found: /member/images/static/images/man.png
+"GET /member/images/static/images/man.png HTTP/1.1" 404 3634
+"GET /member/member_update/850c4022-4106-4abe-9bd8-3243150d8867 HTTP/1.1" 200 11857
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2999
+Internal Server Error: /member/member_update/850c4022-4106-4abe-9bd8-3243150d8867
+Traceback (most recent call last):
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\myevents\members\views.py", line 62, in member_update
+    with default_storage.open(file_path, 'wb') as destination:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\core\files\storage\base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\core\files\storage\filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'F:\\Hostingspaces\\PyJango\\myevents\\media\\images\\man.png'
+"POST /member/member_update/850c4022-4106-4abe-9bd8-3243150d8867 HTTP/1.1" 500 79269
+F:\Hostingspaces\PyJango\myevents\myevents\settings.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Hostingspaces\PyJango\myevents\myevents\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /member/member_update/850c4022-4106-4abe-9bd8-3243150d8867
+Traceback (most recent call last):
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\myevents\members\views.py", line 62, in member_update
+    with default_storage.open(file_path, 'wb') as destination:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\core\files\storage\base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\core\files\storage\filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'F:\\Hostingspaces\\PyJango\\myevents\\images\\man.png'
+"POST /member/member_update/850c4022-4106-4abe-9bd8-3243150d8867 HTTP/1.1" 500 79190
+F:\Hostingspaces\PyJango\myevents\myevents\settings.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Hostingspaces\PyJango\myevents\myevents\settings.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Hostingspaces\PyJango\myevents\myevents\settings.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Hostingspaces\PyJango\myevents\myevents\settings.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Hostingspaces\PyJango\myevents\myevents\settings.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Hostingspaces\PyJango\myevents\members\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /member/member_update/850c4022-4106-4abe-9bd8-3243150d8867 HTTP/1.1" 302 0
+"GET /member/member_view HTTP/1.1" 200 13578
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2999
+Not Found: /member/images/static/images/man.png
+Not Found: /member/images/noimage.png
+"GET /member/images/static/images/man.png HTTP/1.1" 404 3634
+"GET /member/images/noimage.png HTTP/1.1" 404 3604
+"GET /member/member_update/850c4022-4106-4abe-9bd8-3243150d8867 HTTP/1.1" 200 11857
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2999
+"POST /member/member_update/850c4022-4106-4abe-9bd8-3243150d8867 HTTP/1.1" 302 0
+"GET /member/member_view HTTP/1.1" 200 13578
+Not Found: /member/images/noimage.png
+"GET /member/images/noimage.png HTTP/1.1" 404 3604
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2999
+Not Found: /member/images/static/images/man.png
+"GET /member/images/static/images/man.png HTTP/1.1" 404 3634
+F:\Hostingspaces\PyJango\myevents\members\views.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Hostingspaces\PyJango\myevents\members\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /member/member_update/850c4022-4106-4abe-9bd8-3243150d8867 HTTP/1.1" 200 11857
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2999
+"POST /member/member_update/850c4022-4106-4abe-9bd8-3243150d8867 HTTP/1.1" 302 0
+"GET /member/member_view HTTP/1.1" 200 13578
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2999
+Not Found: /member/images/noimage.png
+"GET /member/images/noimage.png HTTP/1.1" 404 3604
+Not Found: /member/images/static/images/man.png
+"GET /member/images/static/images/man.png HTTP/1.1" 404 3634
+"GET /member/member_view HTTP/1.1" 200 13299
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2999
+Not Found: /member/noimage.png
+"GET /member/noimage.png HTTP/1.1" 404 3583
+Not Found: /member/static/images/man.png
+"GET /member/static/images/man.png HTTP/1.1" 404 3613
+F:\Hostingspaces\PyJango\myevents\members\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /member/member_update/850c4022-4106-4abe-9bd8-3243150d8867 HTTP/1.1" 200 11857
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2999
+"POST /member/member_update/850c4022-4106-4abe-9bd8-3243150d8867 HTTP/1.1" 302 0
+"GET /member/member_view HTTP/1.1" 200 13550
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2999
+Not Found: /member/noimage.png
+"GET /member/noimage.png HTTP/1.1" 404 3583
+Not Found: /member/man.png
+"GET /member/man.png HTTP/1.1" 404 3571
+"GET /member/member_view HTTP/1.1" 200 13313
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2999
+"GET /static/imagesnoimage.png HTTP/1.1" 404 1810
+"GET /static/imagesman.png HTTP/1.1" 404 1798
+"GET /member/member_view HTTP/1.1" 200 13315
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2999
+"GET /static/images/noimage.png HTTP/1.1" 404 1813
+"GET /static/images/man.png HTTP/1.1" 200 1801
+F:\Hostingspaces\PyJango\myevents\members\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /member/member_delete/850c4022-4106-4abe-9bd8-3243150d8867/ HTTP/1.1" 302 0
+"GET /member/member_view HTTP/1.1" 200 12100
+"GET /static/images/noimage.png HTTP/1.1" 404 1813
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2999
+"GET /member/member_update/5fe88065-0776-440b-87ea-ade8f00ed7df HTTP/1.1" 200 11877
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2999
+"POST /member/member_update/5fe88065-0776-440b-87ea-ade8f00ed7df HTTP/1.1" 302 0
+"GET /member/member_view HTTP/1.1" 200 12158
+"GET /static/images/photos/bbe54206-b15c-4bf2-a5a9-dfa96c84f599.png HTTP/1.1" 404 1921
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2999
+"GET /static/images/bbe54206-b15c-4bf2-a5a9-dfa96c84f599.png HTTP/1.1" 200 1801
+F:\Hostingspaces\PyJango\myevents\members\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /member/member_update/5fe88065-0776-440b-87ea-ade8f00ed7df HTTP/1.1" 200 11906
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2999
+"GET /static/images/photos/bbe54206-b15c-4bf2-a5a9-dfa96c84f599.png HTTP/1.1" 404 1921
+"POST /member/member_update/5fe88065-0776-440b-87ea-ade8f00ed7df HTTP/1.1" 302 0
+"GET /member/member_view HTTP/1.1" 200 12174
+"GET /static/images/photos/man.png_6dea365c-6929-45b6-839a-0a6d51261c51.png HTTP/1.1" 404 1945
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2999
+"GET /static/images/man.png_6dea365c-6929-45b6-839a-0a6d51261c51.png HTTP/1.1" 200 1801
+F:\Hostingspaces\PyJango\myevents\members\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /member/member_update/5fe88065-0776-440b-87ea-ade8f00ed7df HTTP/1.1" 200 11914
+"GET /static/images/photos/man.png_6dea365c-6929-45b6-839a-0a6d51261c51.png HTTP/1.1" 404 1945
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2999
+"POST /member/member_update/5fe88065-0776-440b-87ea-ade8f00ed7df HTTP/1.1" 302 0
+"GET /member/member_view HTTP/1.1" 200 12166
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2999
+"GET /static/images/photos/man_52fd7f00-aae3-45af-90eb-da2d148b35c9.png HTTP/1.1" 404 1933
+"GET /static/images/man_52fd7f00-aae3-45af-90eb-da2d148b35c9.png HTTP/1.1" 200 1801
+"GET /member/member_view HTTP/1.1" 200 11894
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2999
+"GET /static/images/man_52fd7f00-aae3-45af-90eb-da2d148b35c9.png HTTP/1.1" 304 0
+"GET /member/member_update/5fe88065-0776-440b-87ea-ade8f00ed7df HTTP/1.1" 200 11903
+"GET /static/images/man_52fd7f00-aae3-45af-90eb-da2d148b35c9.png HTTP/1.1" 304 0
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2999
+"GET /member/member_update/5fe88065-0776-440b-87ea-ade8f00ed7df HTTP/1.1" 200 12113
+"GET /static/images/man_52fd7f00-aae3-45af-90eb-da2d148b35c9.png HTTP/1.1" 304 0
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2999
+"GET /member/member_update/5fe88065-0776-440b-87ea-ade8f00ed7df HTTP/1.1" 200 12117
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2999
+"GET /member/member_update/5fe88065-0776-440b-87ea-ade8f00ed7df HTTP/1.1" 200 12121
+"GET /static/images/man_52fd7f00-aae3-45af-90eb-da2d148b35c9.png HTTP/1.1" 304 0
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2999
+"POST /member/member_update/5fe88065-0776-440b-87ea-ade8f00ed7df HTTP/1.1" 302 0
+"GET /member/member_view HTTP/1.1" 200 12159
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2999
+"GET /member/member_update/5fe88065-0776-440b-87ea-ade8f00ed7df HTTP/1.1" 200 12121
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2999
+"POST /member/member_update/5fe88065-0776-440b-87ea-ade8f00ed7df HTTP/1.1" 302 0
+"GET /member/member_view HTTP/1.1" 200 12159
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2999
+"GET /member/member_update/0 HTTP/1.1" 200 11790
+"GET /static/images/man_52fd7f00-aae3-45af-90eb-da2d148b35c9.png HTTP/1.1" 304 0
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2999
+F:\Hostingspaces\PyJango\myevents\members\views.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Hostingspaces\PyJango\myevents\members\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /member/member_update/0 HTTP/1.1" 302 0
+"GET /member/member_view HTTP/1.1" 200 12154
+"GET /static/images/man_52fd7f00-aae3-45af-90eb-da2d148b35c9.png HTTP/1.1" 304 0
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2999
+"GET /member/member_update/0 HTTP/1.1" 200 11790
+"POST /member/member_update/0 HTTP/1.1" 302 0
+"GET /member/member_view HTTP/1.1" 200 12154
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2999
+"GET /member/member_update/0 HTTP/1.1" 200 11790
+"POST /member/member_update/0 HTTP/1.1" 302 0
+"GET /member/member_view HTTP/1.1" 200 12154
+"GET /static/images/man_52fd7f00-aae3-45af-90eb-da2d148b35c9.png HTTP/1.1" 304 0
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2999
+F:\Hostingspaces\PyJango\myevents\members\views.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Hostingspaces\PyJango\myevents\members\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /member/member_update/0 HTTP/1.1" 200 11790
+"POST /member/member_update/0 HTTP/1.1" 302 0
+"GET /member/member_view HTTP/1.1" 200 12154
+"GET /static/images/man_52fd7f00-aae3-45af-90eb-da2d148b35c9.png HTTP/1.1" 304 0
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2999
+F:\Hostingspaces\PyJango\myevents\members\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /member/member_update/0 HTTP/1.1" 200 11790
+"POST /member/member_update/0 HTTP/1.1" 200 4
+F:\Hostingspaces\PyJango\myevents\members\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /member/member_update/0 HTTP/1.1" 302 0
+"GET /member/member_view HTTP/1.1" 200 12154
+"GET /static/images/man_52fd7f00-aae3-45af-90eb-da2d148b35c9.png HTTP/1.1" 304 0
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2999
+F:\Hostingspaces\PyJango\myevents\members\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /member/member_update/0 HTTP/1.1" 200 11790
+"GET /member/member_update/0 HTTP/1.1" 200 11790
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2999
+"GET /member/member_view HTTP/1.1" 200 11894
+Internal Server Error: /member/member_update/0
+Traceback (most recent call last):
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\db\models\fields\__init__.py", line 2688, in to_python
+    return uuid.UUID(**{input_form: value})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\uuid.py", line 178, in __init__
+    raise ValueError('badly formed hexadecimal UUID string')
+ValueError: badly formed hexadecimal UUID string
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\myevents\members\views.py", line 75, in member_update
+    userd = Members.objects.get(mid=mid)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\db\models\query.py", line 623, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\db\models\sql\query.py", line 1491, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\db\models\sql\query.py", line 1318, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\db\models\lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\db\models\lookups.py", line 341, in get_prep_lookup
+    return super().get_prep_lookup()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\db\models\lookups.py", line 85, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\db\models\fields\__init__.py", line 2672, in get_prep_value
+    return self.to_python(value)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Hostingspaces\PyJango\env\Lib\site-packages\django\db\models\fields\__init__.py", line 2690, in to_python
+    raise exceptions.ValidationError(
+django.core.exceptions.ValidationError: ['“None” is not a valid UUID.']
+"POST /member/member_update/0 HTTP/1.1" 500 143938
+F:\Hostingspaces\PyJango\myevents\members\views.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Hostingspaces\PyJango\myevents\members\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /member/member_update/0 HTTP/1.1" 302 0
+"GET /member/member_view HTTP/1.1" 200 12154
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2999
+"GET /static/images/man_52fd7f00-aae3-45af-90eb-da2d148b35c9.png HTTP/1.1" 304 0
+F:\Hostingspaces\PyJango\myevents\members\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /member/member_update/0 HTTP/1.1" 200 11790
+"POST /member/member_update/0 HTTP/1.1" 302 0
+"GET /member/member_view HTTP/1.1" 200 12154
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2999
+"GET /member/member_update/0 HTTP/1.1" 200 11790
+F:\Hostingspaces\PyJango\myevents\members\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /member/member_update/0 HTTP/1.1" 302 0
+"GET /member/member_view HTTP/1.1" 200 12154
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2999
+F:\Hostingspaces\PyJango\myevents\members\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /member/member_update/0 HTTP/1.1" 200 11790
+"POST /member/member_update/0 HTTP/1.1" 302 0
+"GET /member/member_view HTTP/1.1" 200 12154
+"GET /static/images/man_52fd7f00-aae3-45af-90eb-da2d148b35c9.png HTTP/1.1" 304 0
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2999
+"GET /member/member_update/0 HTTP/1.1" 200 11790
+F:\Hostingspaces\PyJango\myevents\members\views.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Hostingspaces\PyJango\myevents\members\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /member/member_update/0 HTTP/1.1" 200 12228
+"GET /static/images/man_52fd7f00-aae3-45af-90eb-da2d148b35c9.png HTTP/1.1" 304 0
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2999
+"GET /static/images/None HTTP/1.1" 404 1792
+"GET /member/member_update/0 HTTP/1.1" 200 11937
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2999
+"GET /static/images/ HTTP/1.1" 404 1781
+"GET /member/member_update/0 HTTP/1.1" 200 11790
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2999
+"GET /static/images/man_52fd7f00-aae3-45af-90eb-da2d148b35c9.png HTTP/1.1" 304 0
+"POST /member/member_update/0 HTTP/1.1" 302 0
+"GET /member/member_view HTTP/1.1" 200 13648
+"GET /static/images/pdfs_page-0001.jpg HTTP/1.1" 404 1834
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2999
+F:\Hostingspaces\PyJango\myevents\members\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /member/member_delete/8272ad53-8fff-4645-b85d-a6ceba5fa7a0/ HTTP/1.1" 302 0
+"GET /member/member_view HTTP/1.1" 200 12159
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2999
+"GET /member/member_update/0 HTTP/1.1" 200 11790
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2999
+"POST /member/member_update/0 HTTP/1.1" 302 0
+"GET /member/member_view HTTP/1.1" 200 13685
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2999
+"GET /static/images/pdfs_page-0001_8a9d5489-b57b-44c7-8fdc-76e8b141ac7d.jpg HTTP/1.1" 200 1733820
+"GET /member/member_update/180895af-256b-436d-8cc2-d2963bc71913 HTTP/1.1" 200 12108
+"GET /static/images/pdfs_page-0001_8a9d5489-b57b-44c7-8fdc-76e8b141ac7d.jpg HTTP/1.1" 304 0
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2999
+"POST /member/member_update/180895af-256b-436d-8cc2-d2963bc71913 HTTP/1.1" 302 0
+"GET /member/member_view HTTP/1.1" 200 13687
+"GET /static/images/pdfs_page-0001_8a9d5489-b57b-44c7-8fdc-76e8b141ac7d.jpg HTTP/1.1" 304 0
+Not Found: /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js
+"GET /cdn-cgi/apps/head/pvASaBfED6ibTeJ-dTLoTrfvn8Q.js HTTP/1.1" 404 2999

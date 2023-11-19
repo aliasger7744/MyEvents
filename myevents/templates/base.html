@@ -33,10 +33,7 @@
                   <div class="header-element">
                      <div class="horizontal-logo">
                         <a href="index.html" class="header-logo">
-                        <img src="{% static 'images/brand-logos/desktop-logo.png' %}" alt="logo" class="desktop-logo">
-                        <img src="{% static 'images/brand-logos/toggle-logo.png' %}" alt="logo" class="toggle-logo">
-                        <img src="{% static 'images/brand-logos/desktop-dark.png' %}" alt="logo" class="desktop-dark">
-                        <img src="{% static 'images/brand-logos/toggle-dark.png' %}" alt="logo" class="toggle-dark">
+                           {{userdetails.appname}}
                         </a>
                      </div>
                   </div>
@@ -49,7 +46,7 @@
                     <a href="#" class="header-link dropdown-toggle" id="mainHeaderProfile" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
                        <div class="d-flex align-items-center">
                           <div class="me-sm-2 me-0">
-                             <img src="{% static '/images/photos/' %}{{userdetails.photo}}" alt="img" width="32" height="32" class="rounded-circle">
+                             <img src="{% static '/images/' %}{{userdetails.photo}}" alt="img" width="32" height="32" class="rounded-circle">
                           </div>
                           <div class="d-sm-block d-none">
 
@@ -76,10 +73,7 @@
          <aside class="app-sidebar sticky" id="sidebar">
             <div class="main-sidebar-header">
                <a href="index.html" class="header-logo">
-               <img src="{% static 'images/brand-logos/desktop-logo.png' %}" alt="logo" class="desktop-logo">
-               <img src="{% static 'images/brand-logos/toggle-logo.png' %}" alt="logo" class="toggle-logo">
-               <img src="{% static 'images/brand-logos/desktop-dark.png' %}" alt="logo" class="desktop-dark">
-               <img src="{% static 'images/brand-logos/toggle-dark.png' %}" alt="logo" class="toggle-dark">
+               <h2 style='color:white;'>{{userdetails.appname}}</h2>
                </a>
             </div>
             <div class="main-sidebar" id="sidebar-scroll">

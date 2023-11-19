@@ -4,6 +4,7 @@ from myapp.models import Members
 from django.contrib import messages
 from django.urls import reverse
 import os
+import uuid
 
 def member_update(req, mid):
       
@@ -52,17 +53,25 @@ def member_update(req, mid):
         role = req.POST.get('role')
         password = req.POST.get('password')
         mid = req.POST.get('mid')
+        mid = "" if mid == "None" or mid is None or mid == "0" else mid
         #formdate = f"{fullname},{mobile},{photo},{role},{password}"
         #return HttpResponse(formdate)
         #return HttpResponse(photo_file)
         if photo:
               # Save the photo to the media directory
-              file_path = os.path.join('photos', photo.name)
+              unique_filename = str(uuid.uuid4()) + os.path.splitext(photo.name)[1]
+              unique_filename = f"{ os.path.splitext(photo.name)[0]}_{unique_filename}"
+              file_path = os.path.join('static/images', unique_filename)
+              
               #return HttpResponse(file_path)
               with default_storage.open(file_path, 'wb') as destination:
                   for chunk in photo.chunks():
                       destination.write(chunk)
-        if mid:
+
+              image_url = unique_filename
+
+        #return HttpResponse(mid)   
+        if mid and mid is not None:
             try:
                 userd = Members.objects.get(mid=mid)
                 if not userd:
@@ -75,8 +84,7 @@ def member_update(req, mid):
                       userd.password = password
                       userd.role = role
                       if photo:
-                        
-                        userd.photo = photo
+                        userd.photo = image_url
                       userd.save()
                       messages.success(req, 'Member updated successfully')
                       return redirect('member:member_view')
@@ -89,7 +97,7 @@ def member_update(req, mid):
                 if users:
                       messages.error(req, 'Mobile no. already exists')   
                 else:
-                      usersadd = Members(fullname=fullname,mobile=mobile,role=role,photo=photo,password=password)  
+                      usersadd = Members(fullname=fullname,mobile=mobile,role=role,photo=image_url,password=password)  
                       usersadd.save()
                       messages.success(req,'Member added successfully')
                       return redirect('member:member_view')

@@ -1,5 +1,7 @@
 from . import views
 from django.urls import path, include
+from django.conf import settings
+from django.conf.urls.static import static
 
 urlpatterns = [
    
@@ -8,3 +10,4 @@ urlpatterns = [
     path('member_delete/<str:mid>/', views.member_delete, name='member_delete'),
     path('member_edit', views.member_edit, name="member_edit"),
 ]
+
