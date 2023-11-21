@@ -31,6 +31,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+MAIN_MOBILE = "7045277352"
 
 # Application definition
 

@@ -23,6 +23,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include("myapp.urls")),
     path('member/', include(("members.urls", 'member'))),
+    path('event/', include(("events.urls", 'event'))),
 
 ]
 

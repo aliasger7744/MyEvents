@@ -1,4 +1,9 @@
 from django.shortcuts import render,HttpResponse,get_object_or_404, redirect
+from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
+from django.db.models import Q
+from django.conf import settings
+
+
 from django.core.files.storage import default_storage
 from myapp.models import Members
 from django.contrib import messages
@@ -13,6 +18,7 @@ def member_update(req, mid):
       mobile = ""
       photo = ""
       role = ""
+      status = ""
 
 
       if mid == '0' :
@@ -21,6 +27,9 @@ def member_update(req, mid):
       else:
             mid = mid
             buttontitle = "Update"
+
+
+
       if not mid:
              mtitle = "Add New Member"
       if mid:
@@ -36,6 +45,7 @@ def member_update(req, mid):
                       password = userd.password
                       role = userd.role
                       photo = userd.photo
+                      status = userd.status
                       mtitle = f"Edit: {fullname} [{mobile}]"
              except Exception as e:
                    messages.error(req, 'Opps, Member not exists')
@@ -53,6 +63,7 @@ def member_update(req, mid):
         role = req.POST.get('role')
         password = req.POST.get('password')
         mid = req.POST.get('mid')
+        status = req.POST.get('status')
         mid = "" if mid == "None" or mid is None or mid == "0" else mid
         #formdate = f"{fullname},{mobile},{photo},{role},{password}"
         #return HttpResponse(formdate)
@@ -83,6 +94,7 @@ def member_update(req, mid):
                       userd.fullname = fullname
                       userd.password = password
                       userd.role = role
+                      userd.status = status
                       if photo:
                         userd.photo = image_url
                       userd.save()
@@ -97,7 +109,7 @@ def member_update(req, mid):
                 if users:
                       messages.error(req, 'Mobile no. already exists')   
                 else:
-                      usersadd = Members(fullname=fullname,mobile=mobile,role=role,photo=image_url,password=password)  
+                      usersadd = Members(fullname=fullname,mobile=mobile,role=role,photo=image_url,password=password, status= status)  
                       usersadd.save()
                       messages.success(req,'Member added successfully')
                       return redirect('member:member_view')
@@ -110,26 +122,53 @@ def member_update(req, mid):
                   'password' : password,
                   'mobile' : mobile,
                   'photo' : photo,
-                  'role' : role
+                  'role' : role,
+                  'status' : status,
                 }
       return render(req, "member_update.html", context)
 
 def member_view(req):
-       data = Members.objects.all()
-       total_members = Members.objects.count()
+      data = Members.objects.all()
 
-       context = {
+      # Get the search query from the GET parameters
+      search_query = req.GET.get('q', '')
+
+      # If a search query is present, filter the queryset
+      if search_query:
+          data = data.filter(
+              Q(fullname__icontains=search_query) |
+              Q(mobile__icontains=search_query) 
+          )
+
+
+      page = req.GET.get('page', 1)
+      paginator = Paginator(data, 20)  # Show 10 items per page
+
+      try:
+          items = paginator.page(page)
+      except PageNotAnInteger:
+          items = paginator.page(1)
+      except EmptyPage:
+          items = paginator.page(paginator.num_pages)
+
+
+      total_members = data.count()
+
+      context = {
                 'data' : data,
-                'mcount' : total_members
+                'mcount' : total_members,
+                'items' : items,
+                'pagetitle' : 'Members',
+                'search_query' : search_query,
                 }
        
-       return render(req, "member_view.html", context)
+      return render(req, "member_view.html", context)
 
 
 def member_delete(req,mid):
        if mid:
               adminmember = Members.objects.get(mid=mid)
-              if adminmember.mobile == "7045277352":
+              if adminmember.mobile == settings.MAIN_MOBILE:
                      messages.error(req,"Member deletetion failed")
                      return redirect('member:member_view')
               

@@ -38,7 +38,7 @@
 
                         <div class="mb-3">
                           <label for="form-text" class="form-label fs-14 text-dark">Mobile*</label>
-                          <input type="text" required name="mobile" autocomplete="nope" value="{{mobile}}" class="form-control" placeholder="">
+                          <input type="text"  {%if mid is not None and  mid != ''%}readonly{%endif%} required name="mobile" autocomplete="nope" value="{{mobile}}" class="form-control" placeholder="">
                       </div>
 
                         <div class="mb-3">
@@ -48,6 +48,14 @@
                               <option {%if role == "admin"%}selected{%endif%}>admin</option>
                           </select>
                       </div>
+
+                      <div class="mb-3">
+                        <label for="form-password" class="form-label fs-14 text-dark">Status*</label>
+                        <select name="status"  required class="form-control">
+                            <option {%if status == "Active" or status == ''%}selected{%endif%}>Active</option>
+                            <option {%if status == "Disabled"%}selected{%endif%}>Disabled</option>
+                        </select>
+                    </div>
 
 
                         <div class="mb-3">

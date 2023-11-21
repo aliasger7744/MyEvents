@@ -19,14 +19,41 @@
 
 
               <div class='row'>
+                {%include 'search.html'%}
                 <div class='col-md-12'>
                   <div class='card'>
                     <div class="card-header">
                       <div class="card-title">
-                        Members [{{mcount}}]
+                      
+
+                        <span class="step-links" style='float:right;'>
+
+                          <span class="current">
+                            Page {{ items.number }} of {{ items.paginator.num_pages }}.
+                          </span>
+
+
+                          {% if items.has_previous %}
+                              <a style='color:white;' class="badge bg-primary" href="?page=1">&laquo; First</a>
+                              <a style='color:white;' class="badge bg-primary" href="?page={{ items.previous_page_number }}">Previous</a>
+                          {% endif %}
+                  
+                          
+                  
+                          {% if items.has_next %}
+                              <a style='color:white;' class="badge bg-primary" href="?page={{ items.next_page_number }}">Next</a>
+                              <a style='color:white;' class="badge bg-primary" href="?page={{ items.paginator.num_pages }}">Last &raquo;</a>
+                          {% endif %}
+                      </span>
+                      
+
+
                       </div>
                       </div>
                   <div class="card-body">
+                    
+                      
+                  
                     <div class="table-responsive">
                       <table class="table text-nowrap table-bordered">
                           <thead>
@@ -42,7 +69,7 @@
                           </thead>
                           <tbody>
                           
-                            {% for item in data %}
+                            {% for item in items %}
                                 {% with photo=item.photo|default:"noimage.png" %}
                                     <tr>
                                         <th scope="row">
@@ -61,7 +88,7 @@
                                         {% if userdetails.role == "admin" %}
                                         <td>
                                             <a class='btn btn-success btn-sm' href="{% url 'member:member_update' item.mid  %}">Edit</a>
-                                            <a class='btn btn-danger btn-sm' href="{% url 'member:member_delete' item.mid  %}">Delete</a>
+                                            <a onclick="return confirm('Are you sure to delete this member')" class='btn btn-danger btn-sm' href="{% url 'member:member_delete' item.mid  %}">Delete</a>
                                         </td>
                                         {% endif %}
 
@@ -73,6 +100,7 @@
                           </tbody>
                       </table>
                   </div>
+
                 </div>
                 </div>
               </div>
