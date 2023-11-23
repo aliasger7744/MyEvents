@@ -8,5 +8,6 @@ urlpatterns = [
     path('member_view', views.member_view, name="member_view"),
     path('member_delete/<str:mid>/', views.member_delete, name='member_delete'),
     path('member_edit', views.member_edit, name="member_edit"),
+    path('member_edits/<str:compound>/', views.member_edits, name="member_edit"),
 ]
 

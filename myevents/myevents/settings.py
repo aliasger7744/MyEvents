@@ -29,7 +29,11 @@ SECRET_KEY = 'django-insecure-8pydjcfp!n6ysvwe-iam88tl*t)=lk@4y$1y-dn4)-qbl=m1ml
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+
+CSRF_TRUSTED_ORIGINS = ['https://myevents.overtures.in','http://localhost:8000/']
+
+
+ALLOWED_HOSTS = ['myevents.overtures.in','localhost']
 
 MAIN_MOBILE = "7045277352"
 
@@ -89,7 +93,9 @@ SESSION_COOKIE_AGE = 2592000
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'NAME': 'F:/Hostingspaces/pyjango/myevents/db.sqlite3',
+       #         'NAME': BASE_DIR/'db.sqlite3',
+
     }
 }
 
@@ -132,6 +138,11 @@ STATIC_URL = '/static/'
 
 
 STATICFILES_DIRS = [BASE_DIR,'static']
+
+#python manage.py collectstatic
+
+STATIC_ROOT = 'pyjango/myevents/static/'
+
 #print(STATICFILES_DIRS)
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
@@ -147,7 +158,7 @@ MESSAGE_TAGS = {
     messages.ERROR: 'alert-danger',
 }
 
-LOGGING = {
+'''LOGGING = {
     'version': 1,
     'disable_existing_loggers': False,
     'handlers': {
@@ -164,7 +175,7 @@ LOGGING = {
             'propagate': True,
         },
     },
-}
+}'''
 
 #MEDIA_ROOT = BASE_DIR / 'media'
 #MEDIA_URL = '/media/'

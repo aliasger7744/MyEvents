@@ -179,3 +179,7 @@ def member_delete(req,mid):
 
 def member_edit(req):
        return HttpResponse("member_edit")
+
+
+def member_edits(req, compound):
+       return HttpResponse(compound)
